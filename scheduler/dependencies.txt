@@ -1,0 +1,1852 @@
+Name            : a52dec
+Depends On      : glibc
+Name            : abseil-cpp
+Depends On      : gcc-libs  glibc  gtest
+Name            : accounts-qml-module
+Depends On      : gcc-libs  glibc  libaccounts-qt  qt6-base  qt6-declarative  signond
+Name            : accountsservice
+Depends On      : gcc-libs  glib2  glibc  libxcrypt  polkit  shadow  systemd  libcrypt.so=2-64  libglib-2.0.so=0-64  libgobject-2.0.so=0-64  libgio-2.0.so=0-64  libsystemd.so=0-64
+Name            : acl
+Depends On      : glibc
+Name            : adobe-source-code-pro-fonts
+Depends On      : None
+Name            : adwaita-cursors
+Depends On      : None
+Name            : adwaita-icon-theme
+Depends On      : adwaita-icon-theme-legacy  hicolor-icon-theme  adwaita-cursors
+Name            : adwaita-icon-theme-legacy
+Depends On      : hicolor-icon-theme
+Name            : aha
+Depends On      : glibc
+Name            : alsa-card-profiles
+Depends On      : None
+Name            : alsa-lib
+Depends On      : alsa-topology-conf  alsa-ucm-conf  glibc
+Name            : alsa-topology-conf
+Depends On      : None
+Name            : alsa-ucm-conf
+Depends On      : None
+Name            : alsa-utils
+Depends On      : gcc-libs  glibc  pciutils  psmisc  alsa-lib  libasound.so=2-64  libatopology.so=2-64  ncurses  libformw.so=6-64  libmenuw.so=6-64  libncursesw.so=6-64  libpanelw.so=6-64  libsamplerate  libsamplerate.so=0-64
+Name            : aom
+Depends On      : gcc-libs  glibc
+Name            : appstream
+Depends On      : cairo  curl  fontconfig  freetype2  gcc-libs  gdk-pixbuf2  glib2  glibc  librsvg  libstemmer  libxml2  libxmlb  libyaml  pango  systemd-libs  zstd
+Name            : appstream-qt
+Depends On      : appstream  gcc-libs  glib2  glibc  qt6-base
+Name            : aquamarine
+Depends On      : gcc-libs  glibc  hyprutils  libhyprutils.so=1-64  hyprwayland-scanner  libdisplay-info  libdisplay-info.so=2-64  libdrm  libglvnd  libEGL.so=1-64  libGLESv2.so  libinput  mesa  opengl-driver  pixman  pugixml  seatd  libseat.so=1-64  systemd-libs  libudev.so=1-64  wayland  libwayland-client.so=0-64  wayland-protocols
+Name            : archlinux-appstream-data
+Depends On      : None
+Name            : archlinux-keyring
+Depends On      : pacman
+Name            : argon2
+Depends On      : glibc
+Name            : aribb24
+Depends On      : libpng
+Name            : ark
+Depends On      : breeze-icons  gcc-libs  glibc  kcolorscheme  kcompletion  kconfig  kconfigwidgets  kcoreaddons  kcrash  kdbusaddons  kfilemetadata  ki18n  kio  kjobwidgets  kparts  kpty  kservice  kwidgetsaddons  kwindowsystem  kxmlgui  libarchive  libzip  qt6-base  sh  zlib
+Name            : at-spi2-core
+Depends On      : bash  dbus  glib2  glibc  gsettings-desktop-schemas  libx11  libxi  libxtst  systemd-libs  xorg-xprop
+Name            : atkmm
+Depends On      : atk  glibmm  libglibmm-2.4.so=1-64  libsigc-2.0.so=0-64
+Name            : attica
+Depends On      : gcc-libs  glibc  qt6-base
+Name            : attr
+Depends On      : glibc
+Name            : audit
+Depends On      : glibc  krb5  libkrb5.so=3-64  libgssapi_krb5.so=2-64  libcap-ng  libcap-ng.so=0-64
+Name            : autoconf
+Depends On      : awk  m4  diffutils  perl  sh
+Name            : automake
+Depends On      : perl  bash
+Name            : avahi
+Depends On      : dbus  expat  gdbm  glib2  libcap  libdaemon  libdbus-1.so=3-64
+Name            : baloo
+Depends On      : gcc-libs  glibc  kconfig  kcoreaddons  kcrash  kdbusaddons  kfilemetadata  ki18n  kidletime  kio  lmdb  qt6-base  solid
+Name            : baloo-widgets
+Depends On      : gcc-libs  glibc  baloo  kconfig  kcoreaddons  kfilemetadata  ki18n  kio  kservice  kwidgetsaddons  qt6-base
+Name            : base
+Depends On      : filesystem  gcc-libs  glibc  bash  coreutils  file  findutils  gawk  grep  procps-ng  sed  tar  gettext  pciutils  psmisc  shadow  util-linux  bzip2  gzip  xz  licenses  pacman  archlinux-keyring  systemd  systemd-sysvcompat  iputils  iproute2
+Name            : base-devel
+Depends On      : archlinux-keyring  autoconf  automake  binutils  bison  debugedit  fakeroot  file  findutils  flex  gawk  gcc  gettext  grep  groff  gzip  libtool  m4  make  pacman  patch  pkgconf  sed  sudo  texinfo  which
+Name            : bash
+Depends On      : readline  libreadline.so=8-64  glibc  ncurses
+Name            : bash-completion
+Depends On      : bash
+Name            : binutils
+Depends On      : glibc  jansson  libelf  zlib  zstd
+Name            : bison
+Depends On      : gettext  glibc  m4  sh
+Name            : bluedevil
+Depends On      : bluez-qt  gcc-libs  glibc  kcmutils  kconfig  kcoreaddons  kdbusaddons  kdeclarative  ki18n  kio  kirigami  kjobwidgets  knotifications  kservice  ksvg  kwidgetsaddons  kwindowsystem  libplasma  qt6-base  qt6-declarative
+Name            : blueman
+Depends On      : bluez  bluez-libs  gtk3  libnm  python-cairo  python-gobject
+Name            : bluez
+Depends On      : systemd-libs  dbus  glib2  alsa-lib  glibc
+Name            : bluez-libs
+Depends On      : glibc
+Name            : bluez-qt
+Depends On      : bluez  gcc-libs  glibc  qt6-base
+Name            : bluez-utils
+Depends On      : dbus  systemd-libs  glib2  glibc  readline
+Name            : bolt
+Depends On      : polkit  systemd
+Name            : boost-libs
+Depends On      : bzip2  zlib  icu  zstd
+Name            : breeze
+Depends On      : breeze-icons  frameworkintegration  gcc-libs  glibc  kcmutils  kcolorscheme  kconfig  kcoreaddons  kdecoration  kguiaddons  ki18n  kiconthemes  kirigami  kwidgetsaddons  kwindowsystem  qt6-base  qt6-declarative
+Name            : breeze-gtk
+Depends On      : None
+Name            : breeze-icons
+Depends On      : glibc  qt6-base
+Name            : breeze-plymouth
+Depends On      : glibc  plymouth
+Name            : brightnessctl
+Depends On      : systemd-libs
+Name            : brotli
+Depends On      : glibc
+Name            : bubblewrap
+Depends On      : gcc-libs  glibc  libcap
+Name            : bzip2
+Depends On      : glibc  sh
+Name            : c-ares
+Depends On      : glibc
+Name            : ca-certificates
+Depends On      : ca-certificates-mozilla
+Name            : ca-certificates-mozilla
+Depends On      : ca-certificates-utils>=20181109-3
+Name            : ca-certificates-utils
+Depends On      : bash  coreutils  findutils  p11-kit
+Name            : cairo
+Depends On      : bash  fontconfig  freetype2  glib2  glibc  libpng  libx11  libxcb  libxext  libxrender  lzo  pixman  zlib
+Name            : cairomm
+Depends On      : cairo  libsigc++  libsigc-2.0.so=0-64
+Name            : cairomm-1.16
+Depends On      : cairo  libsigc++-3.0  libsigc-3.0.so=0-64
+Name            : cantarell-fonts
+Depends On      : None
+Name            : cifs-utils
+Depends On      : keyutils  krb5  pam  libcap-ng  libwbclient  talloc
+Name            : clinfo
+Depends On      : opencl-icd-loader
+Name            : cliphist
+Depends On      : glibc  wl-clipboard
+Name            : cmake
+Depends On      : cppdap  curl  expat  gcc-libs  glibc  hicolor-icon-theme  jsoncpp  libarchive  libuv  ncurses  rhash  zlib
+Name            : composefs
+Depends On      : gcc-libs  glibc  openssl
+Name            : convertlit
+Depends On      : glibc  libtommath
+Name            : coreutils
+Depends On      : acl  attr  glibc  gmp  libcap  openssl
+Name            : cppdap
+Depends On      : gcc-libs  glibc
+Name            : cryptsetup
+Depends On      : device-mapper  libdevmapper.so=1.02-64  openssl  popt  util-linux-libs  libuuid.so=1-64  json-c  libjson-c.so=5-64  argon2  libargon2.so
+Name            : curl
+Depends On      : ca-certificates  brotli  libbrotlidec.so=1-64  krb5  libgssapi_krb5.so=2-64  libidn2  libidn2.so=0-64  libnghttp2  libnghttp2.so=14-64  libnghttp3  libnghttp3.so=9-64  libpsl  libpsl.so=5-64  libssh2  libssh2.so=1-64  zlib  libz.so=1-64  zstd  libzstd.so=1-64  openssl  libcrypto.so=3-64  libssl.so=3-64
+Name            : cython
+Depends On      : glibc  python
+Name            : dav1d
+Depends On      : glibc
+Name            : db5.3
+Depends On      : gcc-libs  sh
+Name            : dbus
+Depends On      : audit  libcap-ng  expat  systemd-libs  libaudit.so=1-64  libcap-ng.so=0-64  libexpat.so=1-64  libsystemd.so=0-64
+Name            : dbus-broker
+Depends On      : audit  libcap-ng  expat  systemd-libs  libaudit.so=1-64  libcap-ng.so=0-64  libexpat.so=1-64  libsystemd.so=0-64
+Name            : dbus-broker-units
+Depends On      : dbus  dbus-broker
+Name            : dbus-units
+Depends On      : dbus-broker-units
+Name            : dconf
+Depends On      : glib2
+Name            : ddcutil
+Depends On      : glib2  i2c-tools  libusb  libdrm  jansson
+Name            : debugedit
+Depends On      : glibc  libelf  xxhash
+Name            : default-cursors
+Depends On      : None
+Name            : desktop-file-utils
+Depends On      : glib2  glibc  libglib-2.0.so=0-64
+Name            : device-mapper
+Depends On      : glibc  systemd-libs  libudev.so=1-64
+Name            : dhcpcd
+Depends On      : glibc  openssl  sh  systemd-libs
+Name            : diffutils
+Depends On      : glibc  bash
+Name            : discount
+Depends On      : glibc
+Name            : discover
+Depends On      : appstream-qt  archlinux-appstream-data  attica  discount  gcc-libs  glib2  glibc  kcmutils  kconfig  kcoreaddons  kcrash  kdbusaddons  ki18n  kiconthemes  kidletime  kio  kirigami  kirigami-addons  kjobwidgets  knewstuff  knotifications  kservice  kstatusnotifieritem  kuserfeedback  kwidgetsaddons  kwindowsystem  purpose  qcoro  qt6-base  qt6-declarative  qt6-webview
+Name            : dmidecode
+Depends On      : glibc
+Name            : dolphin
+Depends On      : baloo  baloo-widgets  gcc-libs  glibc  kbookmarks  kcmutils  kcodecs  kcolorscheme  kcompletion  kconfig  kconfigwidgets  kcoreaddons  kcrash  kdbusaddons  kfilemetadata  ki18n  kiconthemes  kio  kio-extras  kjobwidgets  knewstuff  knotifications  kparts  kservice  ktextwidgets  kuserfeedback  kwidgetsaddons  kwindowsystem  kxmlgui  phonon-qt6  qt6-base  solid
+Name            : double-conversion
+Depends On      : gcc-libs  glibc
+Name            : drkonqi
+Depends On      : gcc-libs  gdb  glibc  kcmutils  kconfig  kcoreaddons  kcrash  ki18n  kidletime  kio  kirigami  kitemmodels  knotifications  kservice  kstatusnotifieritem  kwallet  kwidgetsaddons  kwindowsystem  polkit-qt6  python  python-psutil  python-pygdbmi  python-sentry_sdk  qt6-base  qt6-declarative  syntax-highlighting  systemd-libs
+Name            : duktape
+Depends On      : glibc
+Name            : dunst
+Depends On      : libxinerama  dbus  systemd  wayland  libxss  pango  gdk-pixbuf2  libxrandr  glib2
+Name            : e2fsprogs
+Depends On      : sh  util-linux-libs
+Name            : ebook-tools
+Depends On      : convertlit  glibc  libxml2  libzip  sh
+Name            : editorconfig-core-c
+Depends On      : glibc  pcre2
+Name            : electron32
+Depends On      : c-ares  gcc-libs  glibc  gtk3  libgtk-3.so=0-64  libevent  libffi  libffi.so=8-64  libpulse  libpulse.so=0-64  nss  zlib  libz.so=1-64  fontconfig  libfontconfig.so=1-64  brotli  libjpeg-turbo  libjpeg.so=8-64  icu  libicui18n.so=75-64  libicuuc.so=75-64  flac  libFLAC.so=12-64  libdrm  libxml2  libxml2.so=2-64  minizip  opus  libopus.so=0-64  harfbuzz  libharfbuzz.so=0-64  libharfbuzz-subset.so=0-64  libxslt  libxslt.so=1-64  libpng  libpng16.so=16-64  freetype2  libfreetype.so=6-64
+Name            : exiv2
+Depends On      : brotli  libbrotlidec.so=1-64  curl  expat  libexpat.so=1-64  gcc-libs  gettext  glibc  libcurl.so=4-64  libinih  libINIReader.so=0-64  zlib  libz.so=1-64
+Name            : expat
+Depends On      : glibc
+Name            : extra-cmake-modules
+Depends On      : cmake
+Name            : eza
+Depends On      : gcc-libs  glibc  libgit2  libgit2.so=1.8-64
+Name            : faad2
+Depends On      : glibc
+Name            : fakeroot
+Depends On      : glibc  filesystem  sed  util-linux  sh
+Name            : fastfetch
+Depends On      : glibc  yyjson
+Name            : ffmpeg
+Depends On      : alsa-lib  aom  bzip2  cairo  dav1d  fontconfig  freetype2  fribidi  glib2  glibc  glslang  gmp  gnutls  gsm  harfbuzz  jack  lame  libass  libavc1394  libbluray  libbs2b  libdrm  libdvdnav  libdvdread  libgl  libiec61883  libjxl  libmodplug  libopenmpt  libplacebo  libpulse  libraw1394  librsvg  libsoxr  libssh  libtheora  libva  libvdpau  libvorbis  libvpx  libwebp  libx11  libxcb  libxext  libxml2  libxv  ocl-icd  onevpl  opencore-amr  openjpeg2  opus  rav1e  rubberband  sdl2  snappy  speex  srt  svt-av1  v4l-utils  vapoursynth  vid.stab  vmaf  vulkan-icd-loader  x264  x265  xvidcore  xz  zeromq  zimg  zlib  libass.so=9-64  libbluray.so=2-64  libbs2b.so=0-64  libdav1d.so=7-64  libfreetype.so=6-64  libharfbuzz.so=0-64  libjxl.so=0.11-64  libopenmpt.so=0-64  libplacebo.so=349-64  librav1e.so=0.7-64  librsvg-2.so=2-64  librubberband.so=3-64  libva.so=2-64  libva-drm.so=2-64  libva-x11.so=2-64  libvidstab.so=1.2-64  libvorbisenc.so=2-64  libvorbis.so=0-64  libvpx.so=9-64  libx264.so=164-64  libx265.so=212-64  libxvidcore.so=4-64  libzimg.so=2-64  libzmq.so=5-64
+Name            : ffmpeg4.4
+Depends On      : alsa-lib  aom  bzip2  fontconfig  fribidi  gmp  gnutls  gsm  jack  lame  libass.so=9-64  libavc1394  libbluray.so=2-64  libdav1d.so=7-64  libdrm  libfreetype.so=6-64  libiec61883  libmfx  libmodplug  libpulse  librav1e.so=0.7-64  libraw1394  librsvg-2.so=2-64  libsoxr  libssh  libtheora  libva.so=2-64  libva-drm.so=2-64  libva-x11.so=2-64  libvdpau  libvidstab.so=1.2-64  libvorbisenc.so=2-64  libvorbis.so=0-64  libvpx.so=9-64  libwebp  libx11  libx264.so=164-64  libx265.so=212-64  libxcb  libxext  libxml2  libxv  libxvidcore.so=4-64  libzimg.so=2-64  opencore-amr  openjpeg2  opus  sdl2  speex  srt  svt-av1  v4l-utils  xz  zlib
+Name            : ffmpegthumbs
+Depends On      : ffmpeg  gcc-libs  glibc  kconfig  kcoreaddons  kio  qt6-base
+Name            : fftw
+Depends On      : bash  gcc-libs  glibc
+Name            : file
+Depends On      : glibc  zlib  xz  bzip2  libseccomp  libseccomp.so=2-64  zstd  libzstd.so=1-64
+Name            : filesystem
+Depends On      : iana-etc
+Name            : findutils
+Depends On      : glibc  sh
+Name            : firefox
+Depends On      : alsa-lib  at-spi2-core  bash  cairo  dbus  ffmpeg  fontconfig  freetype2  gcc-libs  gdk-pixbuf2  glib2  glibc  gtk3  hicolor-icon-theme  libpulse  libx11  libxcb  libxcomposite  libxdamage  libxext  libxfixes  libxrandr  libxss  libxt  mime-types  nspr  nss  pango  ttf-font
+Name            : flac
+Depends On      : gcc-libs  libogg
+Name            : flatpak
+Depends On      : appstream  bash  bubblewrap  curl  dbus  dconf  fuse3  gcc-libs  gdk-pixbuf2  glib2  glibc  gpgme  json-glib  libarchive  libmalcontent  libseccomp  libxau  libxml2  ostree  polkit  python  python-gobject  systemd  systemd-libs  wayland  xdg-dbus-proxy  xdg-utils  zstd  libostree-1.so=1-64  xdg-desktop-portal
+Name            : flatpak-kcm
+Depends On      : flatpak  gcc-libs  glib2  glibc  kcmutils  kconfig  kcoreaddons  ki18n  kirigami  kitemmodels  qt6-base  qt6-declarative
+Name            : flex
+Depends On      : glibc  m4  sh
+Name            : fmt
+Depends On      : gcc-libs  glibc
+Name            : fontconfig
+Depends On      : expat  freetype2  libexpat.so=1-64  libfreetype.so=6-64
+Name            : frameworkintegration
+Depends On      : gcc-libs  glibc  kcolorscheme  kconfig  ki18n  kiconthemes  knewstuff  knotifications  kwidgetsaddons  qt6-base
+Name            : freeglut
+Depends On      : glibc  libgl  libx11  libxi  libxrandr  libxxf86vm
+Name            : freerdp2
+Depends On      : glibc  libcups  libx11  libxcursor  libxext  libxdamage  libxfixes  libxkbcommon  libxi  libxinerama  libxkbfile  libxrandr  libxrender  libxtst  pcsclite  wayland  alsa-lib  libasound.so=2-64  ffmpeg  libavcodec.so=61-64  libavutil.so=59-64  libswresample.so=5-64  libswscale.so=8-64  icu  libicuuc.so=75-64  libjpeg-turbo  libjpeg.so=8-64  libpulse  libpulse.so=0-64  libusb  libusb-1.0.so=0-64  openssl  libcrypto.so=3-64  libssl.so=3-64  pam  libpam.so=0-64  systemd-libs  libsystemd.so=0-64
+Name            : freetype2
+Depends On      : brotli  bzip2  libpng  sh  zlib  harfbuzz
+Name            : fribidi
+Depends On      : glibc
+Name            : fuse-common
+Depends On      : None
+Name            : fuse3
+Depends On      : fuse-common  glibc
+Name            : fzf
+Depends On      : bash
+Name            : gawk
+Depends On      : sh  glibc  mpfr
+Name            : gc
+Depends On      : gcc-libs
+Name            : gcc
+Depends On      : gcc-libs=14.2.1+r134+gab884fffe3fc-1  binutils>=2.28  libmpc  zstd  libisl.so=23-64
+Name            : gcc-libs
+Depends On      : glibc>=2.27
+Name            : gcr-4
+Depends On      : glib2  glibc  gnutls  libp11-kit  libsecret  openssh  systemd-libs
+Name            : gdb
+Depends On      : bash  expat  gcc-libs  gdb-common=15.2  glibc  gmp  guile  libelf  liblzma.so=5-64  libmpfr.so=6-64  libncursesw.so=6-64  libreadline.so=8-64  libxxhash.so=0-64  libzstd.so=1-64  mpfr  ncurses  python  readline  source-highlight  xxhash  xz  zstd
+Name            : gdb-common
+Depends On      : python  guile
+Name            : gdbm
+Depends On      : glibc  sh  readline  libreadline.so=8-64
+Name            : gdk-pixbuf2
+Depends On      : glib2  glibc  libjpeg-turbo  libpng  libtiff  shared-mime-info
+Name            : gettext
+Depends On      : acl  gcc-libs  libunistring  libxml2  sh
+Name            : giflib
+Depends On      : glibc
+Name            : git
+Depends On      : curl  expat  perl  perl-error  perl-mailtools  openssl  pcre2  grep  shadow  zlib
+Name            : glfw
+Depends On      : libgl  libxkbcommon
+Name            : glib-networking
+Depends On      : glib2  glibc  gnutls  gsettings-system-schemas  libproxy
+Name            : glib2
+Depends On      : bash  glibc  libffi  libsysprof-capture  pcre2  util-linux-libs  zlib  libffi.so=8-64  libmount.so=1-64
+Name            : glibc
+Depends On      : linux-api-headers>=4.10  tzdata  filesystem
+Name            : glibmm
+Depends On      : glib2  libsigc++  libsigc-2.0.so=0-64
+Name            : glibmm-2.68
+Depends On      : gcc-libs  glib2  glibc  libsigc++-3.0  libsigc-3.0.so=0-64
+Name            : glslang
+Depends On      : gcc-libs  spirv-tools
+Name            : glu
+Depends On      : libgl  gcc-libs  glibc
+Name            : gmp
+Depends On      : gcc-libs  glibc
+Name            : gnu-free-fonts
+Depends On      : None
+Name            : gnupg
+Depends On      : glibc  gnutls  libgcrypt  libgpg-error  libksba  libldap  libusb  pinentry  sh  sqlite  tpm2-tss  zlib  bzip2  libbz2.so=1.0-64  libassuan  libassuan.so=9-64  npth  libnpth.so=0-64  readline  libreadline.so=8-64
+Name            : gnutls
+Depends On      : glibc  gcc-libs  gmp  libtasn1  zlib  nettle  libp11-kit  libidn2  zstd  libidn2.so=0-64  libunistring  brotli
+Name            : go
+Depends On      : None
+Name            : gobject-introspection
+Depends On      : gobject-introspection-runtime=1.82.0-1  libgirepository=1.82.0-1  glib2  glibc  libffi  python  python-mako  python-markdown  python-setuptools
+Name            : gobject-introspection-runtime
+Depends On      : libgirepository=1.82.0-1
+Name            : gperftools
+Depends On      : gcc-libs  glibc  libunwind
+Name            : gpgme
+Depends On      : gcc-libs  glib2  glibc  libassuan  libgpg-error  gnupg>=2
+Name            : gpm
+Depends On      : bash  procps-ng
+Name            : graphene
+Depends On      : glib2  glibc
+Name            : graphite
+Depends On      : gcc-libs  glibc
+Name            : grep
+Depends On      : glibc  pcre2
+Name            : grim
+Depends On      : cairo  libjpeg-turbo  wayland
+Name            : grimblast-git
+Depends On      : hyprland  grim  slurp  jq
+Name            : groff
+Depends On      : perl  gcc-libs
+Name            : gsettings-desktop-schemas
+Depends On      : gsettings-system-schemas=47.1-1  adobe-source-code-pro-fonts  cantarell-fonts  dconf
+Name            : gsettings-system-schemas
+Depends On      : dconf
+Name            : gsm
+Depends On      : glibc
+Name            : gssdp
+Depends On      : gcc-libs  glib2  glibc  libsoup3  libglib-2.0.so=0-64  libgobject-2.0.so=0-64  libgio-2.0.so=0-64  libsoup-3.0.so=0-64
+Name            : gst-plugin-pipewire
+Depends On      : gcc-libs  glib2  glibc  gst-plugins-base-libs  gstreamer  libpipewire-0.3.so=0-64  pipewire  pipewire-session-manager
+Name            : gst-plugins-bad-libs
+Depends On      : gst-plugins-base-libs=1.24.10-1  gstreamer=1.24.10-1  gcc-libs  glib2  glibc  libdrm  libglvnd  libgudev  libnice  libusb  libva  libx11  libxcb  libxkbcommon  libxkbcommon-x11  mesa  orc  vulkan-icd-loader  wayland  zlib
+Name            : gst-plugins-base-libs
+Depends On      : gstreamer=1.24.10-1  glib2  glibc  iso-codes  libdrm  libglvnd  libgudev  libx11  libxcb  libxext  libxi  libxv  mesa  orc  wayland  zlib
+Name            : gstreamer
+Depends On      : gcc-libs  glib2  glibc  libcap  libelf  libunwind
+Name            : gtest
+Depends On      : gcc-libs  glibc
+Name            : gtk-layer-shell
+Depends On      : gtk3  wayland
+Name            : gtk-update-icon-cache
+Depends On      : bash  gdk-pixbuf2  glib2  glibc  hicolor-icon-theme  librsvg
+Name            : gtk3
+Depends On      : adwaita-icon-theme  at-spi2-core  cairo  cantarell-fonts  dconf  desktop-file-utils  fontconfig  fribidi  gdk-pixbuf2  glib2  glibc  harfbuzz  iso-codes  libcloudproviders  libcolord  libcups  libegl  libepoxy  libgl  librsvg  libx11  libxcomposite  libxcursor  libxdamage  libxext  libxfixes  libxi  libxinerama  libxkbcommon  libxrandr  libxrender  pango  shared-mime-info  tinysparql  wayland  gtk-update-icon-cache
+Name            : gtk4
+Depends On      : adwaita-icon-theme  at-spi2-core  cairo  cantarell-fonts  dconf  desktop-file-utils  fontconfig  fribidi  gcc-libs  gdk-pixbuf2  glib2  graphene  gst-plugins-bad-libs  harfbuzz  iso-codes  libcloudproviders  libcolord  libcups  libegl  libepoxy  libgl  libjpeg-turbo  libpng  librsvg  libtiff  libx11  libxcursor  libxdamage  libxext  libxfixes  libxi  libxinerama  libxkbcommon  libxrandr  libxrender  pango  shared-mime-info  tinysparql  wayland  bash  glibc  gst-plugins-base-libs  gstreamer  gtk-update-icon-cache  vulkan-icd-loader
+Name            : gtkmm-4.0
+Depends On      : cairo  cairomm-1.16  gcc-libs  gdk-pixbuf2  glib2  glibc  glibmm-2.68  graphene  gtk4  pangomm-2.48  vulkan-icd-loader  libcairomm-1.16.so=1-64  libglibmm-2.68.so=1-64  libpangomm-2.48.so=1-64  libsigc-3.0.so=0-64
+Name            : gtkmm3
+Depends On      : atkmm  gtk3  pangomm  libatkmm-1.6.so=1-64  libcairomm-1.0.so=1-64  libglibmm-2.4.so=1-64  libpangomm-1.4.so=1-64  libsigc-2.0.so=0-64
+Name            : guile
+Depends On      : gmp  ncurses  libunistring  gc  libffi  libxcrypt
+Name            : gupnp
+Depends On      : gcc-libs  glib2  glibc  gssdp  libxml2  libglib-2.0.so=0-64  libgobject-2.0.so=0-64  libgio-2.0.so=0-64  libgmodule-2.0.so=0-64  libgssdp-1.6.so=0-64  libsoup-3.0.so=0-64
+Name            : gupnp-igd
+Depends On      : gupnp  libglib-2.0.so=0-64  libgobject-2.0.so=0-64  libgio-2.0.so=0-64  libgssdp-1.6.so=0-64  libgupnp-1.6.so=0-64
+Name            : gzip
+Depends On      : glibc  bash  coreutils  sed  grep
+Name            : harfbuzz
+Depends On      : freetype2  glib2  glibc  graphite  libfreetype.so=6-64  libgraphite2.so=3-64  libglib-2.0.so=0-64  libgobject-2.0.so=0-64
+Name            : hicolor-icon-theme
+Depends On      : None
+Name            : hidapi
+Depends On      : systemd-libs
+Name            : highway
+Depends On      : gcc-libs
+Name            : http-parser
+Depends On      : glibc
+Name            : hunspell
+Depends On      : gcc-libs  readline  ncurses  glibc  sh
+Name            : hwdata
+Depends On      : None
+Name            : hyde-cli-git
+Depends On      : fzf  ttf-jetbrains-mono-nerd
+Name            : hyprcursor
+Depends On      : cairo  gcc-libs  glibc  hyprlang  libhyprlang.so=2-64  librsvg  librsvg-2.so=2-64  libzip  libzip.so=5-64  tomlplusplus  libtomlplusplus.so=3-64
+Name            : hyprland
+Depends On      : cairo  aquamarine  libaquamarine.so=4-64  gcc-libs  glibc  glib2  libgobject-2.0.so=0-64  glslang  hyprcursor  libhyprcursor.so=0-64  hyprlang  libhyprlang.so=2-64  hyprutils  libhyprutils.so=1-64  hyprwayland-scanner  libdisplay-info  libdisplay-info.so  libdrm  libglvnd  libEGL.so=1-64  libGLESv2.so=2-64  libOpenGL.so  libinput  libliftoff  libliftoff.so  libx11  libxcb  libxcomposite  libxcursor  libxfixes  libxkbcommon  libxkbcommon.so=0-64  libxrender  mesa  opengl-driver  pango  libpango-1.0.so=0-64  libpangocairo-1.0.so=0-64  pixman  libpixman-1.so=0-64  seatd  libseat.so  systemd-libs  libsystemd.so  tomlplusplus  libtomlplusplus.so  libudev.so  vulkan-icd-loader  wayland  libwayland-client.so  libwayland-server.so=0-64  wayland-protocols  xcb-proto  xcb-util  xcb-util-errors  xcb-util-image  xcb-util-keysyms  xcb-util-renderutil  xcb-util-wm  xorg-xwayland
+Name            : hyprlang
+Depends On      : gcc-libs  glibc  hyprutils  libhyprutils.so=1-64
+Name            : hyprpaper
+Depends On      : cairo  libcairo.so=2-64  file  libmagic.so=1-64  gcc-libs  glibc  hyprlang  libhyprlang.so=2-64  hyprutils  libhyprutils.so=1-64  hyprwayland-scanner  libglvnd  libjpeg-turbo  libjpeg.so=8-64  libwebp  libwebp.so=7-64  pango  wayland
+Name            : hyprpicker
+Depends On      : cairo  gcc-libs  glibc  hyprutils  hyprwayland-scanner  libxkbcommon  wayland
+Name            : hyprutils
+Depends On      : pixman
+Name            : hyprwayland-scanner
+Depends On      : pugixml
+Name            : i2c-tools
+Depends On      : perl
+Name            : iana-etc
+Depends On      : None
+Name            : icu
+Depends On      : gcc-libs  glibc  sh
+Name            : imagemagick
+Depends On      : bzip2  cairo  fftw  fontconfig  freetype2  gcc-libs  glib2  glibc  lcms2  liblqr  libltdl  libpng  libraqm  libxext  libxml2  xz  zlib
+Name            : intel-ucode
+Depends On      : None
+Name            : iproute2
+Depends On      : glibc  libxtables.so=12-64  libcap  libcap.so=2-64  libelf  libbpf  libbpf.so=1-64
+Name            : iptables
+Depends On      : libnftnl  libpcap  libnfnetlink  libnetfilter_conntrack  bash
+Name            : iputils
+Depends On      : libcap  libidn2
+Name            : iso-codes
+Depends On      : None
+Name            : jansson
+Depends On      : glibc
+Name            : jasper
+Depends On      : freeglut  glibc  glu  libglvnd  libjpeg-turbo
+Name            : jbigkit
+Depends On      : glibc
+Name            : jq
+Depends On      : glibc  oniguruma
+Name            : json-c
+Depends On      : glibc
+Name            : json-glib
+Depends On      : glib2  glibc  libglib-2.0.so=0-64  libgobject-2.0.so=0-64  libgio-2.0.so=0-64
+Name            : jsoncpp
+Depends On      : gcc-libs
+Name            : kaccounts-integration
+Depends On      : gcc-libs  glibc  kcmutils  kconfig  kcoreaddons  kdbusaddons  ki18n  kio  kirigami  kwallet  libaccounts-qt  qt6-base  signon-kwallet-extension  signon-plugin-oauth2  signon-ui  signond
+Name            : kactivitymanagerd
+Depends On      : gcc-libs  glibc  kconfig  kcoreaddons  kcrash  kglobalaccel  ki18n  kio  kservice  kwindowsystem  kxmlgui  qt6-base
+Name            : karchive
+Depends On      : bzip2  gcc-libs  glibc  qt6-base  xz  zlib  zstd
+Name            : kauth
+Depends On      : gcc-libs  glibc  kcoreaddons  kwindowsystem  polkit-qt6  qt6-base
+Name            : kbd
+Depends On      : glibc  gzip  pam
+Name            : kbookmarks
+Depends On      : gcc-libs  glibc  kconfig  kcoreaddons  kwidgetsaddons  qt6-base
+Name            : kcmutils
+Depends On      : gcc-libs  glibc  kconfig  kconfigwidgets  kcoreaddons  kguiaddons  ki18n  kio  kirigami  kitemviews  kservice  kwidgetsaddons  kxmlgui  qt6-base  qt6-declarative
+Name            : kcodecs
+Depends On      : gcc-libs  glibc  qt6-base
+Name            : kcolorscheme
+Depends On      : gcc-libs  glibc  kconfig  kguiaddons  ki18n  qt6-base
+Name            : kcompletion
+Depends On      : gcc-libs  glibc  kcodecs  kconfig  kwidgetsaddons  qt6-base
+Name            : kconfig
+Depends On      : gcc-libs  glibc  qt6-base  qt6-declarative
+Name            : kconfigwidgets
+Depends On      : gcc-libs  glibc  kcodecs  kcolorscheme  kconfig  kcoreaddons  ki18n  kwidgetsaddons  qt6-base
+Name            : kcoreaddons
+Depends On      : gcc-libs  glibc  qt6-base  systemd-libs
+Name            : kcrash
+Depends On      : gcc-libs  glibc  kcoreaddons  libx11  qt6-base
+Name            : kdbusaddons
+Depends On      : gcc-libs  glibc  qt6-base
+Name            : kde-cli-tools
+Depends On      : gcc-libs  glibc  kcmutils  kcompletion  kconfig  kcoreaddons  kdesu  ki18n  kiconthemes  kio  kparts  kservice  kwidgetsaddons  kwindowsystem  qt6-base  qt6-svg  sh
+Name            : kde-gtk-config
+Depends On      : gcc-libs  glib2  glibc  kcolorscheme  kconfig  kcoreaddons  kdbusaddons  kdecoration  kguiaddons  kwindowsystem  qt6-base  qt6-svg  sh  xsettingsd
+Name            : kdeclarative
+Depends On      : gcc-libs  glibc  kconfig  kguiaddons  kglobalaccel  kguiaddons  ki18n  kwidgetsaddons  qt6-base  qt6-declarative
+Name            : kdecoration
+Depends On      : gcc-libs  glibc  ki18n  qt6-base
+Name            : kded
+Depends On      : gcc-libs  glibc  kconfig  kcoreaddons  kcrash  kdbusaddons  kservice  qt6-base
+Name            : kdeplasma-addons
+Depends On      : gcc-libs  glibc  icu  kauth  kcmutils  kconfig  kcoreaddons  kdbusaddons  kdeclarative  kglobalaccel  kholidays  ki18n  kiconthemes  kio  kirigami  kirigami-addons  kitemmodels  kjobwidgets  knewstuff  knotifications  kpackage  krunner  kservice  ksvg  kunitconversion  kwidgetsaddons  kwin  kwindowsystem  kxmlgui  libplasma  plasma-workspace  plasma5support  qt6-5compat  qt6-base  qt6-declarative  qt6-quick3d  sonnet
+Name            : kdesu
+Depends On      : gcc-libs  glibc  kconfig  kcoreaddons  ki18n  kpty  libx11  qt6-base
+Name            : kdnssd
+Depends On      : gcc-libs  glibc  qt6-base
+Name            : kdsoap-qt6
+Depends On      : gcc-libs  glibc  qt6-base
+Name            : kdsoap-ws-discovery-client
+Depends On      : gcc-libs  glibc  kdsoap-qt6  qt6-base
+Name            : keyutils
+Depends On      : glibc  sh
+Name            : kfilemetadata
+Depends On      : gcc-libs  glibc  ebook-tools  exiv2  ffmpeg  karchive  kcodecs  kconfig  kcoreaddons  ki18n  poppler-qt6  qt6-base  taglib
+Name            : kgamma
+Depends On      : gcc-libs  glibc  kcmutils  kconfig  kcoreaddons  ki18n  libx11  libxxf86vm  qt6-base
+Name            : kglobalaccel
+Depends On      : gcc-libs  glibc  qt6-base
+Name            : kglobalacceld
+Depends On      : gcc-libs  glibc  kconfig  kcoreaddons  kcrash  kdbusaddons  kglobalaccel  kio  kjobwidgets  kservice  kwindowsystem  libx11  libxcb  qt6-base  xcb-util-keysyms
+Name            : kguiaddons
+Depends On      : gcc-libs  glibc  libx11  qt6-base  qt6-wayland  wayland
+Name            : kholidays
+Depends On      : gcc-libs  glibc  qt6-base
+Name            : ki18n
+Depends On      : gcc-libs  glibc  iso-codes  qt6-base
+Name            : kiconthemes
+Depends On      : breeze-icons  gcc-libs  glibc  karchive  kcolorscheme  kconfig  ki18n  kwidgetsaddons  qt6-base  qt6-svg
+Name            : kidletime
+Depends On      : gcc-libs  glibc  qt6-base
+Name            : kinfocenter
+Depends On      : aha  clinfo  dmidecode  gcc-libs  glibc  glu  iproute2  kauth  kcmutils  kconfig  kcoreaddons  kdeclarative  ki18n  kio  kirigami  kservice  libpulse  libusb  mesa-utils  qt6-base  qt6-declarative  sh  solid  systemsettings  vulkan-tools  wayland-utils  xorg-xdpyinfo
+Name            : kio
+Depends On      : acl  gcc-libs  glibc  karchive  kauth  kbookmarks  kcolorscheme  kcompletion  kconfig  kcoreaddons  kcrash  kdbusaddons  kguiaddons  ki18n  kiconthemes  kitemviews  kjobwidgets  kservice  kwallet  kwidgetsaddons  kwindowsystem  libxml2  libxslt  qt6-base  solid  util-linux-libs
+Name            : kio-extras
+Depends On      : gcc-libs  glibc  karchive  kcmutils  kconfig  kcoreaddons  kdbusaddons  kdnssd  kdsoap-qt6  kdsoap-ws-discovery-client  ki18n  kio  kservice  ktextwidgets  kwidgetsaddons  libimobiledevice  libkexiv2  libmtp  libplist  libssh  libxcursor  phonon-qt6  plasma-activities  qt6-5compat  qt6-base  qt6-svg  smbclient  solid  syntax-highlighting
+Name            : kio-fuse
+Depends On      : fuse3  gcc-libs  glibc  kcoreaddons  kio  qt6-base
+Name            : kirigami
+Depends On      : gcc-libs  glibc  qt6-base  qt6-declarative  qt6-svg
+Name            : kirigami-addons
+Depends On      : gcc-libs  glibc  kconfig  kcoreaddons  kglobalaccel  kguiaddons  ki18n  kirigami  kitemmodels  ksvg  qt6-base  qt6-declarative  qt6-multimedia  sonnet
+Name            : kitemmodels
+Depends On      : gcc-libs  glibc  qt6-base
+Name            : kitemviews
+Depends On      : gcc-libs  glibc  qt6-base
+Name            : kitty
+Depends On      : python3  freetype2  fontconfig  wayland  libx11  libxkbcommon-x11  libxcursor  libxi  hicolor-icon-theme  libgl  dbus  lcms2  librsync  xxhash  kitty-terminfo  kitty-shell-integration
+Name            : kitty-shell-integration
+Depends On      : python3  freetype2  fontconfig  wayland  libx11  libxkbcommon-x11  libxcursor  libxi  hicolor-icon-theme  libgl  dbus  lcms2  librsync  xxhash
+Name            : kitty-terminfo
+Depends On      : ncurses
+Name            : kjobwidgets
+Depends On      : gcc-libs  glibc  kcoreaddons  knotifications  kwidgetsaddons  qt6-base
+Name            : kmenuedit
+Depends On      : gcc-libs  glibc  kcompletion  kconfig  kconfigwidgets  kcoreaddons  kcrash  kdbusaddons  kglobalaccel  ki18n  kiconthemes  kio  kitemviews  kservice  kwidgetsaddons  kwindowsystem  kxmlgui  qt6-base  sonnet
+Name            : kmod
+Depends On      : glibc  zlib  openssl  xz  zstd
+Name            : knewstuff
+Depends On      : attica  gcc-libs  glibc  karchive  kconfig  kcoreaddons  ki18n  kpackage  kwidgetsaddons  qt6-base  syndication
+Name            : knotifications
+Depends On      : gcc-libs  glibc  kconfig  libcanberra  qt6-base
+Name            : knotifyconfig
+Depends On      : gcc-libs  glibc  kconfig  ki18n  kio  libcanberra  qt6-base
+Name            : konsole
+Depends On      : glibc  gcc-libs  icu  kbookmarks  kcolorscheme  kconfig  kconfigwidgets  kcoreaddons  kcrash  kdbusaddons  kglobalaccel  kguiaddons  ki18n  kiconthemes  kio  knewstuff  knotifications  knotifyconfig  kparts  kpty  kservice  ktextwidgets  kwidgetsaddons  kwindowsystem  kxmlgui  qt6-5compat  qt6-base  qt6-multimedia  sh
+Name            : kpackage
+Depends On      : gcc-libs  glibc  karchive  kcoreaddons  ki18n  qt6-base
+Name            : kparts
+Depends On      : gcc-libs  glibc  kconfig  kcoreaddons  ki18n  kio  kwidgetsaddons  kxmlgui  qt6-base
+Name            : kpipewire
+Depends On      : ffmpeg  gcc-libs  glibc  kcoreaddons  ki18n  libdrm  libepoxy  libpipewire  libva  mesa  qt6-base  qt6-declarative
+Name            : kpty
+Depends On      : gcc-libs  glibc  kcoreaddons  ki18n  libutempter  qt6-base
+Name            : kquickcharts
+Depends On      : gcc-libs  glibc  kirigami  qt6-base  qt6-declarative
+Name            : krb5
+Depends On      : bash  e2fsprogs  glibc  keyutils  libldap  libverto-module-base  openssl  lmdb  libcom_err.so=2-64  libkeyutils.so=1-64  libss.so=2-64  libverto.so=1-64
+Name            : krdp
+Depends On      : freerdp2  gcc-libs  glibc  kcmutils  kconfig  kcoreaddons  kcrash  ki18n  kirigami  kpipewire  kstatusnotifieritem  libxkbcommon  qt6-base  qt6-declarative  qt6-wayland  qtkeychain-qt6  wayland
+Name            : krunner
+Depends On      : gcc-libs  glibc  kconfig  kcoreaddons  ki18n  kitemmodels  qt6-base
+Name            : kscreen
+Depends On      : gcc-libs  glibc  kcmutils  kconfig  kcoreaddons  kdbusaddons  ki18n  kirigami  ksvg  kwindowsystem  layer-shell-qt  libkscreen  libx11  libxcb  libxi  libplasma  plasma5support  qt6-base  qt6-declarative  qt6-sensors
+Name            : kscreenlocker
+Depends On      : gcc-libs  glibc  kconfig  kcoreaddons  kcrash  kdeclarative  kglobalaccel  ki18n  kidletime  kio  kirigami  knotifications  kpackage  ksvg  kwindowsystem  kxmlgui  layer-shell-qt  libkscreen  libx11  libxcb  libxi  pam  libplasma  qt6-base  qt6-declarative  wayland  xcb-util-keysyms
+Name            : kservice
+Depends On      : gcc-libs  glibc  kconfig  kcoreaddons  ki18n  qt6-base
+Name            : ksshaskpass
+Depends On      : gcc-libs  glibc  kcoreaddons  ki18n  kwallet  kwidgetsaddons  qt6-base
+Name            : kstatusnotifieritem
+Depends On      : gcc-libs  glibc  kwindowsystem  qt6-base
+Name            : ksvg
+Depends On      : gcc-libs  glibc  karchive  kcolorscheme  kconfig  kcoreaddons  kguiaddons  qt6-base  qt6-svg
+Name            : ksystemstats
+Depends On      : gcc-libs  glibc  kcoreaddons  kcrash  ki18n  kio  libksysguard  lm_sensors  qt6-base  solid
+Name            : ktexteditor
+Depends On      : editorconfig-core-c  gcc-libs  glibc  karchive  kauth  kcodecs  kcolorscheme  kcompletion  kconfig  kconfigwidgets  kcoreaddons  kguiaddons  ki18n  kio  kitemviews  kparts  kwidgetsaddons  kxmlgui  qt6-declarative  qt6-base  qt6-speech  sonnet  syntax-highlighting
+Name            : ktextwidgets
+Depends On      : gcc-libs  glibc  kcolorscheme  kcompletion  kconfig  ki18n  kwidgetsaddons  qt6-base  qt6-speech  sonnet
+Name            : kunitconversion
+Depends On      : gcc-libs  glibc  ki18n  qt6-base
+Name            : kuserfeedback
+Depends On      : gcc-libs  glibc  qt6-base
+Name            : kvantum
+Depends On      : gcc-libs  glibc  libx11  kwindowsystem  qt6-base  qt6-svg
+Name            : kvantum-qt5
+Depends On      : gcc-libs  glibc  libx11  kvantum  kwindowsystem5  qt5-base  qt5-svg  qt5-x11extras
+Name            : kwallet
+Depends On      : gcc-libs  glibc  gpgme  kcolorscheme  kconfig  kcoreaddons  kcrash  kdbusaddons  ki18n  knotifications  kwidgetsaddons  kwindowsystem  libgcrypt  qca-qt6  qt6-base
+Name            : kwallet-pam
+Depends On      : glibc  kwallet  libgcrypt  pam  sh  socat
+Name            : kwayland
+Depends On      : gcc-libs  glibc  qt6-base  qt6-wayland  wayland
+Name            : kwidgetsaddons
+Depends On      : gcc-libs  glibc  qt6-base
+Name            : kwin
+Depends On      : breeze  gcc-libs  glibc  plasma-activities  kauth  kcmutils  kcolorscheme  kconfig  kconfigwidgets  kcoreaddons  kcrash  kdbusaddons  kdeclarative  kdecoration  kglobalaccel  kglobalacceld  kguiaddons  ki18n  kidletime  kirigami  kitemmodels  knewstuff  knotifications  kpackage  kquickcharts  kscreenlocker  kservice  ksvg  kwayland  kwidgetsaddons  kwindowsystem  kxmlgui  lcms2  libcanberra  libdisplay-info  libdrm  libei  libepoxy  libinput  libpipewire  libqaccessibilityclient-qt6  libx11  libxcb  libxcvt  libxi  libxkbcommon  libxkbcommon-x11  mesa  pipewire-session-manager  libplasma  qt6-5compat  qt6-base  qt6-declarative  qt6-multimedia  qt6-sensors  qt6-svg  qt6-tools  qt6-wayland  systemd-libs  wayland  xcb-util-cursor  xcb-util-keysyms  xcb-util-wm
+Name            : kwindowsystem
+Depends On      : gcc-libs  glibc  libx11  libxcb  libxfixes  qt6-base  qt6-wayland  wayland  xcb-util-keysyms
+Name            : kwindowsystem5
+Depends On      : qt5-x11extras
+Name            : kwrited
+Depends On      : gcc-libs  glibc  kcoreaddons  kdbusaddons  knotifications  kpty  qt6-base
+Name            : kxmlgui
+Depends On      : gcc-libs  glibc  kcolorscheme  kconfig  kconfigwidgets  kcoreaddons  kglobalaccel  kguiaddons  ki18n  kiconthemes  kitemviews  kwidgetsaddons  qt6-base
+Name            : l-smash
+Depends On      : glibc
+Name            : lame
+Depends On      : ncurses
+Name            : layer-shell-qt
+Depends On      : gcc-libs  glibc  qt6-base  qt6-wayland  wayland
+Name            : lcms2
+Depends On      : libtiff
+Name            : ldb
+Depends On      : libtevent.so=0-64  lmdb  popt  talloc  tdb  libtdb.so=1-64
+Name            : libaccounts-glib
+Depends On      : glib2  glibc  libxml2  sqlite
+Name            : libaccounts-qt
+Depends On      : gcc-libs  glib2  glibc  libaccounts-glib  qt6-base
+Name            : libappindicator-gtk3
+Depends On      : glib2  glibc  gtk3  libdbusmenu-glib  libdbusmenu-gtk3
+Name            : libarchive
+Depends On      : acl  libacl.so=1-64  bzip2  libbz2.so=1.0-64  libxml2  libxml2.so=2-64  lz4  openssl  libcrypto.so=3-64  xz  liblzma.so=5-64  zlib  libz.so=1-64  zstd  libzstd.so=1-64
+Name            : libass
+Depends On      : fontconfig  fribidi  glibc  harfbuzz  libfreetype.so=6-64  libunibreak
+Name            : libassuan
+Depends On      : glibc  libgpg-error  sh
+Name            : libasyncns
+Depends On      : glibc
+Name            : libatasmart
+Depends On      : glibc  systemd-libs
+Name            : libavc1394
+Depends On      : glibc  libraw1394
+Name            : libb2
+Depends On      : gcc-libs  glibc
+Name            : libblockdev
+Depends On      : glib2  libglib-2.0.so=0-64  libgio-2.0.so=0-64  libgobject-2.0.so=0-64  glibc  kmod  libkmod.so=2-64  systemd-libs  libudev.so=1-64
+Name            : libblockdev-crypto
+Depends On      : cryptsetup  libcryptsetup.so=12-64  gcc-libs  glib2  libglib-2.0.so=0-64  glibc  keyutils  libkeyutils.so=1-64  libblockdev=3.2.1  libbd_utils.so=3-64  nss  util-linux-libs  libblkid.so=1-64  volume_key
+Name            : libblockdev-fs
+Depends On      : e2fsprogs  libext2fs.so=2-64  libe2p.so=2-64  gcc-libs  glib2  libglib-2.0.so=0-64  glibc  libblockdev=3.2.1  libbd_utils.so=3-64  libbytesize  parted  util-linux-libs  libblkid.so=1-64  libmount.so=1-64  libuuid.so=1-64
+Name            : libblockdev-loop
+Depends On      : gcc-libs  glib2  libglib-2.0.so=0-64  glibc  libblockdev=3.2.1  libbd_utils.so=3-64
+Name            : libblockdev-mdraid
+Depends On      : gcc-libs  glib2  libglib-2.0.so=0-64  glibc  libblockdev=3.2.1  libbd_utils.so=3-64  libbytesize  mdadm
+Name            : libblockdev-nvme
+Depends On      : glib2  libglib-2.0.so=0-64  glibc  libblockdev=3.2.1  libbd_utils.so=3-64  libnvme
+Name            : libblockdev-part
+Depends On      : glib2  libglib-2.0.so=0-64  glibc  libblockdev=3.2.1  libbd_utils.so=3-64  util-linux-libs  libfdisk.so=1-64
+Name            : libblockdev-swap
+Depends On      : gcc-libs  glib2  libglib-2.0.so=0-64  glibc  libblockdev=3.2.1  libbd_utils.so=3-64  util-linux-libs  libblkid.so=1-64
+Name            : libbluray
+Depends On      : fontconfig  glibc  libfreetype.so=6-64  libxml2
+Name            : libbpf
+Depends On      : glibc  libelf  linux-api-headers  zlib
+Name            : libbs2b
+Depends On      : libsndfile  gcc-libs  libsndfile.so=1-64
+Name            : libbsd
+Depends On      : glibc  libmd
+Name            : libbytesize
+Depends On      : mpfr  pcre2
+Name            : libcanberra
+Depends On      : libvorbis  libltdl  alsa-lib  libpulse  tdb  sound-theme-freedesktop
+Name            : libcap
+Depends On      : gcc-libs  glibc  pam
+Name            : libcap-ng
+Depends On      : glibc
+Name            : libcloudproviders
+Depends On      : glib2
+Name            : libcolord
+Depends On      : glib2  lcms2  systemd
+Name            : libcups
+Depends On      : gnutls  avahi  glibc  zlib  sh
+Name            : libdaemon
+Depends On      : glibc
+Name            : libdatrie
+Depends On      : glibc
+Name            : libdbusmenu-glib
+Depends On      : glib2
+Name            : libdbusmenu-gtk3
+Depends On      : libdbusmenu-glib  gtk3
+Name            : libdca
+Depends On      : bash  glibc
+Name            : libdecor
+Depends On      : wayland  pango  dbus
+Name            : libdisplay-info
+Depends On      : glibc
+Name            : libdmtx
+Depends On      : glibc
+Name            : libdovi
+Depends On      : gcc-libs  glibc
+Name            : libdrm
+Depends On      : libpciaccess  glibc
+Name            : libdvbpsi
+Depends On      : glibc
+Name            : libdvdnav
+Depends On      : glibc  libdvdread
+Name            : libdvdread
+Depends On      : glibc
+Name            : libebml
+Depends On      : gcc-libs
+Name            : libedit
+Depends On      : glibc  ncurses  libncursesw.so=6-64
+Name            : libei
+Depends On      : gcc-libs  glibc  libevdev  systemd-libs
+Name            : libelf
+Depends On      : bzip2  libbz2.so=1.0-64  curl  libcurl.so=4-64  glibc  json-c  xz  liblzma.so=5-64  zlib  zstd  libzstd.so=1-64
+Name            : libepoxy
+Depends On      : glibc  libglvnd  libx11
+Name            : libevdev
+Depends On      : glibc
+Name            : libevent
+Depends On      : openssl
+Name            : libfdk-aac
+Depends On      : glibc
+Name            : libffi
+Depends On      : glibc
+Name            : libfontenc
+Depends On      : zlib  glibc  xorg-fonts-encodings
+Name            : libfreeaptx
+Depends On      : glibc
+Name            : libgcrypt
+Depends On      : libgpg-error  glibc
+Name            : libgirepository
+Depends On      : glib2  glibc  libffi  libffi.so=8-64  libglib-2.0.so=0-64  libgobject-2.0.so=0-64  libgmodule-2.0.so=0-64
+Name            : libgit2
+Depends On      : gcc-libs  glibc  http-parser  zlib  libssh2  libssh2.so=1-64  openssl  libcrypto.so=3-64  libssl.so=3-64  pcre2  libpcre2-8.so=0-64
+Name            : libglvnd
+Depends On      : libxext  mesa  opengl-driver
+Name            : libgpg-error
+Depends On      : glibc  sh
+Name            : libgudev
+Depends On      : glib2  systemd  libglib-2.0.so=0-64  libgobject-2.0.so=0-64  libudev.so=1-64
+Name            : libice
+Depends On      : glibc  xorgproto
+Name            : libidn
+Depends On      : glibc
+Name            : libidn2
+Depends On      : libunistring  libunistring.so=5-64
+Name            : libiec61883
+Depends On      : libraw1394
+Name            : libimobiledevice
+Depends On      : glibc  libimobiledevice-glue  libplist  libusbmuxd  openssl
+Name            : libimobiledevice-glue
+Depends On      : glibc  libplist
+Name            : libinih
+Depends On      : gcc-libs  glibc
+Name            : libinput
+Depends On      : mtdev  libevdev  libwacom  systemd-libs  glibc
+Name            : libisl
+Depends On      : gmp
+Name            : libjpeg-turbo
+Depends On      : glibc
+Name            : libjxl
+Depends On      : brotli  giflib  gperftools  highway  libjpeg-turbo  libpng
+Name            : libkexiv2
+Depends On      : gcc-libs  glibc  exiv2  qt6-base
+Name            : libksba
+Depends On      : bash  libgpg-error  glibc
+Name            : libkscreen
+Depends On      : gcc-libs  glibc  libxcb  qt6-base  qt6-wayland  wayland
+Name            : libksysguard
+Depends On      : gcc-libs  glibc  kauth  kconfig  kcoreaddons  kdeclarative  ki18n  kirigami  kitemmodels  knewstuff  kpackage  kquickcharts  kservice  libnl  libpcap  lm_sensors  qt6-base  qt6-declarative  solid  zlib
+Name            : liblc3
+Depends On      : glibc
+Name            : libldac
+Depends On      : glibc
+Name            : libldap
+Depends On      : libsasl
+Name            : libliftoff
+Depends On      : glibc  libdrm
+Name            : liblqr
+Depends On      : glib2  glibc
+Name            : libluv
+Depends On      : libuv  luajit
+Name            : libmad
+Depends On      : glibc
+Name            : libmalcontent
+Depends On      : gcc-libs  glibc  libglib-2.0.so=0-64  libgobject-2.0.so=0-64  libgio-2.0.so=0-64
+Name            : libmatroska
+Depends On      : libebml.so=5-64
+Name            : libmbim
+Depends On      : bash  glib2  systemd
+Name            : libmd
+Depends On      : glibc
+Name            : libmfx
+Depends On      : gcc-libs
+Name            : libmm-glib
+Depends On      : libglib-2.0.so=0-64  libgobject-2.0.so=0-64  libgio-2.0.so=0-64
+Name            : libmng
+Depends On      : glibc  lcms2  libjpeg-turbo  zlib
+Name            : libmnl
+Depends On      : glibc
+Name            : libmodplug
+Depends On      : gcc-libs
+Name            : libmpc
+Depends On      : glibc  gmp  mpfr
+Name            : libmpcdec
+Depends On      : glibc
+Name            : libmpdclient
+Depends On      : glibc
+Name            : libmpeg2
+Depends On      : glibc
+Name            : libmtp
+Depends On      : glibc  libgcrypt  libusb
+Name            : libmysofa
+Depends On      : zlib
+Name            : libndp
+Depends On      : glibc
+Name            : libnetfilter_conntrack
+Depends On      : libnfnetlink  libmnl
+Name            : libnewt
+Depends On      : gpm  popt  slang
+Name            : libnfnetlink
+Depends On      : glibc
+Name            : libnftnl
+Depends On      : libmnl
+Name            : libnghttp2
+Depends On      : glibc
+Name            : libnghttp3
+Depends On      : glibc
+Name            : libnice
+Depends On      : glib2  gnutls  gupnp-igd
+Name            : libnl
+Depends On      : glibc  gcc-libs
+Name            : libnm
+Depends On      : gcc-libs  glib2  glibc  nspr  nss  systemd-libs  util-linux-libs
+Name            : libnma
+Depends On      : libnma-common=1.10.6-3  gtk3
+Name            : libnma-common
+Depends On      : dconf  gcr-4  iso-codes  libnm  mobile-broadband-provider-info
+Name            : libnotify
+Depends On      : gdk-pixbuf2  libglib-2.0.so=0-64  libgobject-2.0.so=0-64  libgio-2.0.so=0-64  libgdk_pixbuf-2.0.so=0-64
+Name            : libnsl
+Depends On      : glibc  libtirpc
+Name            : libnvme
+Depends On      : json-c  openssl  keyutils  dbus
+Name            : libogg
+Depends On      : glibc
+Name            : libomxil-bellagio
+Depends On      : glibc
+Name            : libopenmpt
+Depends On      : flac  gcc-libs  glibc  libogg  libpulse  libsndfile  libvorbis  mpg123  portaudio  zlib
+Name            : libp11-kit
+Depends On      : glibc  libffi  libtasn1
+Name            : libpcap
+Depends On      : glibc  libnl  sh  libdbus-1.so=3-64
+Name            : libpciaccess
+Depends On      : glibc  zlib
+Name            : libpgm
+Depends On      : glibc
+Name            : libpipewire
+Depends On      : glibc  gcc-libs
+Name            : libplacebo
+Depends On      : vulkan-icd-loader  glslang  lcms2  shaderc  glibc  gcc-libs  libunwind  libdovi  xxhash  libdovi.so=3-64  liblcms2.so=2-64  libshaderc_shared.so=1-64  libvulkan.so=1-64
+Name            : libplasma
+Depends On      : gcc-libs  glibc  plasma-activities  kcmutils  kcolorscheme  kconfig  kcoreaddons  kglobalaccel  kguiaddons  ki18n  kiconthemes  kio  kirigami  knotifications  kpackage  ksvg  kwidgetsaddons  kwindowsystem  libglvnd  libx11  libxcb  qt6-5compat  qt6-base  qt6-declarative  qt6-wayland  wayland
+Name            : libplist
+Depends On      : gcc-libs  glibc
+Name            : libpng
+Depends On      : zlib  sh
+Name            : libproxy
+Depends On      : curl  duktape  gcc-libs  glib2  glibc
+Name            : libpsl
+Depends On      : libidn2  libunistring  libidn2.so=0-64  libunistring.so=5-64
+Name            : libpulse
+Depends On      : dbus  libasyncns  libsndfile  libxcb  systemd
+Name            : libqaccessibilityclient-qt6
+Depends On      : gcc-libs  glibc  qt6-base
+Name            : libqalculate
+Depends On      : curl  icu  gcc-libs  glibc  gmp  libxml2  mpfr  readline
+Name            : libqmi
+Depends On      : bash  gcc-libs  glib2  glibc  libgudev  libmbim  libqrtr-glib
+Name            : libqrtr-glib
+Depends On      : glib2
+Name            : libraqm
+Depends On      : freetype2  fribidi  glibc  harfbuzz
+Name            : libraw1394
+Depends On      : glibc
+Name            : librsvg
+Depends On      : cairo  dav1d  freetype2  gcc-libs  gdk-pixbuf2  glib2  glibc  harfbuzz  libxml2  pango
+Name            : librsync
+Depends On      : popt
+Name            : libsamplerate
+Depends On      : glibc
+Name            : libsasl
+Depends On      : glibc  gdbm  libgdbm.so=6-64  openssl  libcrypto.so=3-64
+Name            : libseccomp
+Depends On      : glibc
+Name            : libsecret
+Depends On      : glib2  libgcrypt  tpm2-tss
+Name            : libsigc++
+Depends On      : gcc-libs
+Name            : libsigc++-3.0
+Depends On      : gcc-libs
+Name            : libsm
+Depends On      : libice  util-linux-libs  xorgproto  glibc
+Name            : libsndfile
+Depends On      : glibc  flac  libFLAC.so=12-64  lame  libmp3lame.so=0-64  libogg  libogg.so=0-64  libvorbis  libvorbis.so=0-64  libvorbisenc.so=2-64  mpg123  libmpg123.so=0-64  opus  libopus.so=0-64
+Name            : libsodium
+Depends On      : glibc
+Name            : libsoup3
+Depends On      : brotli  glib-networking  glib2  glibc  krb5  libnghttp2  libpsl  libsysprof-capture  sqlite  zlib  libbrotlidec.so=1-64  libgssapi_krb5.so=2-64  libglib-2.0.so=0-64  libgobject-2.0.so=0-64  libgio-2.0.so=0-64  libpsl.so=5-64
+Name            : libsoxr
+Depends On      : gcc-libs
+Name            : libssh
+Depends On      : glibc  openssl  zlib
+Name            : libssh2
+Depends On      : openssl  zlib
+Name            : libstemmer
+Depends On      : glibc
+Name            : libsysprof-capture
+Depends On      : None
+Name            : libtar
+Depends On      : zlib
+Name            : libtasn1
+Depends On      : glibc
+Name            : libteam
+Depends On      : bash  jansson  libdaemon  libdbus  libnl  zeromq
+Name            : libthai
+Depends On      : glibc  libdatrie
+Name            : libtheora
+Depends On      : glibc  libogg
+Name            : libtiff
+Depends On      : gcc-libs  glibc  jbigkit  libjpeg-turbo  libjpeg.so=8-64  zlib  xz  zstd
+Name            : libtirpc
+Depends On      : krb5  glibc
+Name            : libtommath
+Depends On      : glibc
+Name            : libtool
+Depends On      : sh  tar  glibc
+Name            : libunibreak
+Depends On      : glibc
+Name            : libunistring
+Depends On      : glibc
+Name            : libunwind
+Depends On      : glibc  xz  zlib
+Name            : libupnp
+Depends On      : glibc
+Name            : libusb
+Depends On      : glibc  systemd-libs  libudev.so=1-64
+Name            : libusbmuxd
+Depends On      : gcc-libs  glibc  libimobiledevice-glue  libplist
+Name            : libutempter
+Depends On      : glibc
+Name            : libutf8proc
+Depends On      : None
+Name            : libuv
+Depends On      : glibc  libnsl
+Name            : libva
+Depends On      : libdrm  libgl  libx11  libxext  libxfixes  wayland
+Name            : libvdpau
+Depends On      : libxext
+Name            : libverto
+Depends On      : glibc  libevent
+Name            : libvlc
+Depends On      : dbus  gcc-libs  glibc
+Name            : libvorbis
+Depends On      : libogg.so=0-64
+Name            : libvpl
+Depends On      : gcc-libs
+Name            : libvpx
+Depends On      : gcc-libs  glibc
+Name            : libvterm
+Depends On      : glibc
+Name            : libwacom
+Depends On      : glib2  libevdev  libgudev  glibc
+Name            : libwbclient
+Depends On      : libbsd
+Name            : libwebp
+Depends On      : giflib  glibc  libjpeg-turbo  libpng  libtiff
+Name            : libwireplumber
+Depends On      : gcc-libs  glibc  libglib-2.0.so=0-64  libgmodule-2.0.so=0-64  libgobject-2.0.so=0-64  libgio-2.0.so=0-64  libpipewire-0.3.so=0-64
+Name            : libx11
+Depends On      : libxcb  glibc  xorgproto
+Name            : libxau
+Depends On      : glibc  xorgproto
+Name            : libxaw
+Depends On      : libxmu  libxpm  libx11  libxt  libxext  xorgproto  glibc
+Name            : libxcb
+Depends On      : xcb-proto  libxdmcp  libxau  glibc
+Name            : libxcomposite
+Depends On      : libxfixes  xorgproto  libx11  glibc
+Name            : libxcrypt
+Depends On      : glibc
+Name            : libxcursor
+Depends On      : libxfixes  libxrender  default-cursors  libx11  glibc  xorgproto
+Name            : libxcvt
+Depends On      : glibc
+Name            : libxdamage
+Depends On      : libxfixes  xorgproto  libx11  glibc
+Name            : libxdmcp
+Depends On      : glibc  xorgproto
+Name            : libxext
+Depends On      : libx11  glibc  xorgproto
+Name            : libxfixes
+Depends On      : libx11  xorgproto  glibc
+Name            : libxfont2
+Depends On      : freetype2  libfontenc  xorgproto  zlib  glibc
+Name            : libxft
+Depends On      : fontconfig  libxrender  libx11  freetype2  glibc  xorgproto
+Name            : libxi
+Depends On      : libxext  libxfixes  libx11  glibc  xorgproto
+Name            : libxinerama
+Depends On      : libxext  libx11  glibc  xorgproto
+Name            : libxkbcommon
+Depends On      : glibc  libxml2  xkeyboard-config
+Name            : libxkbcommon-x11
+Depends On      : glibc  libxcb  libxkbcommon  libxkbcommon.so=0-64
+Name            : libxkbfile
+Depends On      : libx11  xorgproto  glibc
+Name            : libxml2
+Depends On      : bash  glibc  icu  ncurses  readline  xz  zlib
+Name            : libxmlb
+Depends On      : glib2  libstemmer  xz  zstd
+Name            : libxmu
+Depends On      : libxext  libxt  libx11  xorgproto  glibc
+Name            : libxpm
+Depends On      : libxt  libxext  libx11  glibc
+Name            : libxrandr
+Depends On      : libxext  libxrender  libx11  glibc
+Name            : libxrender
+Depends On      : libx11  glibc  xorgproto
+Name            : libxshmfence
+Depends On      : glibc
+Name            : libxslt
+Depends On      : bash  glibc  libgcrypt  libxml2  xz
+Name            : libxss
+Depends On      : libxext  libx11  glibc  xorgproto
+Name            : libxt
+Depends On      : libsm  libx11  libice  glibc  xorgproto
+Name            : libxtst
+Depends On      : libxext  libxi  libx11  glibc  xorgproto
+Name            : libxv
+Depends On      : libxext  libx11  glibc  xorgproto
+Name            : libxxf86vm
+Depends On      : libxext  libx11  glibc  xorgproto
+Name            : libyaml
+Depends On      : glibc
+Name            : libzip
+Depends On      : zlib  bzip2  zstd  openssl  gnutls
+Name            : licenses
+Depends On      : None
+Name            : lilv
+Depends On      : glibc  serd  libserd-0.so=0-64  sord  libsord-0.so=0-64  sratom  libsratom-0.so=0-64  lv2  zix
+Name            : linux
+Depends On      : coreutils  initramfs  kmod
+Name            : linux-api-headers
+Depends On      : None
+Name            : linux-firmware
+Depends On      : linux-firmware-whence
+Name            : linux-firmware-whence
+Depends On      : None
+Name            : linux-headers
+Depends On      : pahole
+Name            : llvm-libs
+Depends On      : gcc-libs  zlib  zstd  curl  libffi  libedit  ncurses  libxml2
+Name            : lm_sensors
+Depends On      : bash  glibc
+Name            : lmdb
+Depends On      : glibc
+Name            : lua
+Depends On      : readline
+Name            : lua51-lpeg
+Depends On      : glibc
+Name            : luajit
+Depends On      : gcc-libs
+Name            : luit
+Depends On      : libfontenc
+Name            : lv2
+Depends On      : None
+Name            : lz4
+Depends On      : glibc
+Name            : lzo
+Depends On      : glibc
+Name            : m4
+Depends On      : glibc  bash
+Name            : mailcap
+Depends On      : None
+Name            : make
+Depends On      : glibc  guile
+Name            : md4c
+Depends On      : glibc
+Name            : mdadm
+Depends On      : glibc  systemd
+Name            : media-player-info
+Depends On      : systemd
+Name            : mesa
+Depends On      : expat  gcc-libs  glibc  libdrm  libelf  libglvnd  libx11  libxcb  libxext  libxshmfence  libxxf86vm  llvm-libs  lm_sensors  spirv-tools  wayland  zlib  zstd
+Name            : mesa-utils
+Depends On      : libgl  libdecor  libxkbcommon-x11  vulkan-icd-loader  libxcb  wayland  libdrm  libx11  libxkbcommon  glibc
+Name            : meson
+Depends On      : bash  ninja  python  python-tqdm
+Name            : milou
+Depends On      : gcc-libs  glibc  kconfig  kirigami  krunner  ksvg  libplasma  qt6-base  qt6-declarative
+Name            : minizip
+Depends On      : glibc  zlib
+Name            : mkinitcpio
+Depends On      : awk  mkinitcpio-busybox>=1.19.4-2  kmod  util-linux>=2.23  libarchive  coreutils  bash  binutils  diffutils  findutils  grep  filesystem>=2011.10-1  zstd  systemd
+Name            : mkinitcpio-busybox
+Depends On      : glibc  libxcrypt
+Name            : mobile-broadband-provider-info
+Depends On      : None
+Name            : modemmanager
+Depends On      : libgudev  libmbim  libqmi  mobile-broadband-provider-info  polkit  ppp  systemd  libgudev-1.0.so=0-64  libglib-2.0.so=0-64  libgobject-2.0.so=0-64  libgio-2.0.so=0-64  libgmodule-2.0.so=0-64  libmbim-glib.so=4-64  libmm-glib.so=0-64  libqmi-glib.so=5-64  libsystemd.so=0-64
+Name            : modemmanager-qt
+Depends On      : gcc-libs  glibc  modemmanager  qt6-base
+Name            : mpdecimal
+Depends On      : glibc  gcc-libs
+Name            : mpfr
+Depends On      : glibc  gmp
+Name            : mpg123
+Depends On      : alsa-lib
+Name            : msgpack-c
+Depends On      : glibc
+Name            : mtdev
+Depends On      : glibc
+Name            : nano
+Depends On      : ncurses  file  glibc
+Name            : ncurses
+Depends On      : glibc  gcc-libs
+Name            : neofetch
+Depends On      : bash
+Name            : neovim
+Depends On      : libluv  libutf8proc  libuv  libvterm>=0.3.3  lua51-lpeg  luajit  msgpack-c  tree-sitter  tree-sitter-c  tree-sitter-lua  tree-sitter-markdown  tree-sitter-query  tree-sitter-vim  tree-sitter-vimdoc  unibilium
+Name            : nettle
+Depends On      : glibc  gmp
+Name            : network-manager-applet
+Depends On      : libappindicator-gtk3  libmm-glib  libnma  libsecret  networkmanager  nm-connection-editor
+Name            : networkmanager
+Depends On      : audit  curl  gcc-libs  glib2  glibc  iproute2  jansson  libmm-glib  libndp  libnewt  libnm  libpsl  libteam  mobile-broadband-provider-info  nspr  nss  readline  systemd-libs  wpa_supplicant
+Name            : networkmanager-qt
+Depends On      : gcc-libs  glibc  networkmanager  qt6-base
+Name            : ninja
+Depends On      : gcc-libs
+Name            : nm-connection-editor
+Depends On      : jansson  libnma
+Name            : noto-fonts
+Depends On      : None
+Name            : noto-fonts-emoji
+Depends On      : None
+Name            : npth
+Depends On      : glibc  sh
+Name            : nspr
+Depends On      : glibc  sh
+Name            : nss
+Depends On      : glibc  nspr  p11-kit  sh  sqlite  zlib
+Name            : nwg-look
+Depends On      : glibc  gtk3  libatk-1.0.so=0-64  libcairo-gobject.so=2-64  libcairo.so=2-64  libfontconfig.so=1-64  libfreetype.so=6-64  libgdk-3.so=0-64  libgdk_pixbuf-2.0.so=0-64  libgio-2.0.so=0-64  libglib-2.0.so=0-64  libgmodule-2.0.so=0-64  libgobject-2.0.so=0-64  libgtk-3.so=0-64  libharfbuzz.so=0-64  libpango-1.0.so=0-64  libpangocairo-1.0.so=0-64  libz.so=1-64  xcur2png
+Name            : ocean-sound-theme
+Depends On      : None
+Name            : ocl-icd
+Depends On      : glibc
+Name            : oh-my-zsh-git
+Depends On      : zsh
+Name            : oniguruma
+Depends On      : None
+Name            : opencore-amr
+Depends On      : glibc
+Name            : openjpeg2
+Depends On      : libpng  libtiff  lcms2  glibc
+Name            : openssh
+Depends On      : glibc  krb5  libkrb5.so=3-64  libgssapi_krb5.so=2-64  libedit  libedit.so=0-64  libxcrypt  libcrypt.so=2-64  openssl  libcrypto.so=3-64  pam  libpam.so=0-64  zlib  libz.so=1-64
+Name            : openssl
+Depends On      : glibc
+Name            : openxr
+Depends On      : jsoncpp  libx11  vulkan-icd-loader  libglvnd  libxrandr  libxxf86vm
+Name            : opus
+Depends On      : glibc
+Name            : orc
+Depends On      : glibc
+Name            : ostree
+Depends On      : bash  composefs  fuse3  gcc-libs  glibc  libgpg-error  libsodium  sh  util-linux  which  zlib  avahi  libavahi-client.so=3-64  libavahi-common.so=3-64  libavahi-glib.so=1-64  curl  libcurl.so=4-64  glib2  libgio-2.0.so=0-64  libglib-2.0.so=0-64  libgobject-2.0.so=0-64  gpgme  libgpgme.so=11-64  libarchive  libarchive.so=13-64  openssl  libcrypto.so=3-64  systemd-libs  libsystemd.so=0-64  xz  liblzma.so=5-64
+Name            : oxygen
+Depends On      : frameworkintegration  gcc-libs  glibc  kcmutils  kcolorscheme  kcompletion  kconfig  kconfigwidgets  kcoreaddons  kdecoration  kguiaddons  ki18n  kwidgetsaddons  kwindowsystem  libxcb  qt6-base  qt6-declarative
+Name            : oxygen-sounds
+Depends On      : None
+Name            : p11-kit
+Depends On      : coreutils  glibc  libtasn1  systemd-libs  libp11-kit=0.25.5-1  libp11-kit.so=0-64  libsystemd.so=0-64
+Name            : pacman
+Depends On      : bash  coreutils  curl  gawk  gettext  glibc  gnupg  gpgme  grep  libarchive  pacman-mirrorlist  systemd
+Name            : pacman-contrib
+Depends On      : pacman
+Name            : pacman-mirrorlist
+Depends On      : None
+Name            : pahole
+Depends On      : bash  glibc  libelf  zlib
+Name            : pam
+Depends On      : audit  glibc  libaudit.so=1-64  libcrypt.so=2-64  libnsl  libtirpc  libxcrypt  pambase  systemd-libs
+Name            : pambase
+Depends On      : None
+Name            : pamixer
+Depends On      : gcc-libs  glibc  libpulse
+Name            : pango
+Depends On      : cairo  fontconfig  freetype2  fribidi  glib2  glibc  harfbuzz  libsysprof-capture  libthai  libx11  libxft  libxrender
+Name            : pangomm
+Depends On      : cairomm  glibmm  pango  libcairomm-1.0.so=1-64  libglibmm-2.4.so=1-64  libsigc-2.0.so=0-64
+Name            : pangomm-2.48
+Depends On      : cairomm-1.16  gcc-libs  glib2  glibc  glibmm-2.68  pango  libcairomm-1.16.so=1-64  libglibmm-2.68.so=1-64  libsigc-3.0.so=0-64
+Name            : parallel
+Depends On      : perl  procps
+Name            : parted
+Depends On      : device-mapper  util-linux-libs
+Name            : patch
+Depends On      : glibc  attr
+Name            : pavucontrol
+Depends On      : gcc-libs  glib2  glibc  glibmm-2.68  gtk4  gtkmm-4.0  json-glib  libcanberra  libpulse  libsigc++-3.0
+Name            : pciutils
+Depends On      : glibc  hwdata  kmod
+Name            : pcre
+Depends On      : glibc  gcc-libs  readline  zlib  bzip2  bash
+Name            : pcre2
+Depends On      : bzip2  glibc  readline  zlib
+Name            : pcsclite
+Depends On      : libsystemd.so=0-64  libudev.so=1-64  libpolkit-gobject-1.so=0-64
+Name            : perl
+Depends On      : gdbm>=1.17  db5.3  glibc  libxcrypt  libcrypt.so=2-64
+Name            : perl-error
+Depends On      : perl
+Name            : perl-mailtools
+Depends On      : perl-timedate
+Name            : perl-timedate
+Depends On      : perl
+Name            : phonon-qt6
+Depends On      : gcc-libs  glibc  libpulse  phonon-qt6-backend  qt6-5compat  qt6-base
+Name            : phonon-qt6-vlc
+Depends On      : gcc-libs  glibc  vlc  phonon-qt6  qt6-base
+Name            : pinentry
+Depends On      : glibc  ncurses  libassuan  libsecret  glib2  libglib-2.0.so=0-64  libncursesw.so=6-64  libsecret-1.so=0-64
+Name            : pipewire
+Depends On      : libpipewire=1:1.2.7-1  gcc-libs  glibc  libpipewire-0.3.so=0-64  libdbus-1.so=3-64  libglib-2.0.so=0-64  libncursesw.so=6-64  libreadline.so=8-64  libsystemd.so=0-64  libudev.so=1-64
+Name            : pipewire-alsa
+Depends On      : pipewire  pipewire-audio  pipewire-session-manager
+Name            : pipewire-audio
+Depends On      : alsa-card-profiles  dbus  gcc-libs  glib2  glibc  libpipewire-0.3.so=0-64  libasound.so=2-64  libbluetooth.so=3-64  libfdk-aac.so=2-64  libfreeaptx.so=0-64  liblc3.so=1-64  libldacBT_enc.so=2-64  liblilv-0.so=0-64  libmysofa.so=1-64  libopus.so=0-64  libsbc.so=1-64  libsndfile.so=1-64  libusb-1.0.so=0-64  libwebrtc-audio-processing-1.so=3-64  pipewire  systemd-libs
+Name            : pipewire-jack
+Depends On      : glibc  libpipewire-0.3.so=0-64  pipewire  pipewire-audio  pipewire-session-manager  sh
+Name            : pipewire-pulse
+Depends On      : dbus  dconf  gcc-libs  glibc  libpipewire-0.3.so=0-64  libavahi-client.so=3-64  libavahi-common.so=3-64  libglib-2.0.so=0-64  libpulse.so=0-64  pipewire  pipewire-audio  pipewire-session-manager  systemd-libs
+Name            : pipewire-session-manager
+Depends On      : wireplumber
+Name            : pixman
+Depends On      : glibc
+Name            : pkgconf
+Depends On      : glibc  sh
+Name            : plasma-activities
+Depends On      : gcc-libs  glibc  kconfig  kcoreaddons  qt6-base
+Name            : plasma-activities-stats
+Depends On      : gcc-libs  glibc  plasma-activities  kconfig  qt6-base
+Name            : plasma-browser-integration
+Depends On      : gcc-libs  glibc  plasma-activities  kconfig  kcoreaddons  kcrash  kdbusaddons  kfilemetadata  ki18n  kio  kjobwidgets  kservice  kstatusnotifieritem  plasma-workspace  purpose  qt6-base
+Name            : plasma-desktop
+Depends On      : attica  baloo  emoji-font  gcc-libs  glibc  icu  kauth  kbookmarks  kcmutils  kcodecs  kcompletion  kconfig  kconfigwidgets  kcoreaddons  kcrash  kdbusaddons  kdeclarative  kglobalaccel  kguiaddons  ki18n  kiconthemes  kio  kirigami  kirigami-addons  kitemmodels  kitemviews  kjobwidgets  kmenuedit  knewstuff  knotifications  knotifyconfig  kpackage  kpipewire  krunner  kservice  ksvg  kwidgetsaddons  kwindowsystem  kxmlgui  libcanberra  libksysguard  libx11  libxcb  libxcursor  libxi  libxkbcommon  libxkbfile  libplasma  plasma-activities  plasma-activities-stats  plasma-workspace  plasma5support  polkit-kde-agent  powerdevil  qt6-5compat  qt6-base  qt6-declarative  qt6-wayland  sdl2  solid  sonnet  systemsettings  wayland  xcb-util-keysyms  xdg-user-dirs
+Name            : plasma-disks
+Depends On      : gcc-libs  glibc  kauth  kcmutils  kconfig  kcoreaddons  kdbusaddons  ki18n  kinfocenter  kio  kirigami  knotifications  kservice  qt6-base  qt6-declarative  smartmontools  solid
+Name            : plasma-firewall
+Depends On      : gcc-libs  glibc  kauth  kcmutils  kconfig  kcoreaddons  ki18n  kirigami  qt6-base  qt6-declarative
+Name            : plasma-integration
+Depends On      : gcc-libs  glibc  kcolorscheme  kcompletion  kconfig  kcoreaddons  kguiaddons  kiconthemes  ki18n  kio  kjobwidgets  kservice  kstatusnotifieritem  kwidgetsaddons  kwindowsystem  kxmlgui  libxcb  libxcursor  qqc2-breeze-style  qqc2-desktop-style  qt6-base  qt6-declarative  qt6-wayland  wayland  noto-fonts  ttf-hack  xdg-desktop-portal-kde
+Name            : plasma-nm
+Depends On      : gcc-libs  glib2  glibc  kcmutils  kcolorscheme  kcompletion  kconfig  kcoreaddons  kdbusaddons  kdeclarative  ki18n  kio  kirigami  knotifications  kquickcharts  ksvg  kwallet  kwidgetsaddons  kwindowsystem  libnm  libplasma  modemmanager-qt  networkmanager-qt  plasma-workspace  prison  qca-qt6  qcoro  qt6-base  qt6-declarative  solid
+Name            : plasma-pa
+Depends On      : gcc-libs  glib2  glibc  kcmutils  kconfig  kcoreaddons  kdbusaddons  kdeclarative  kglobalaccel  ki18n  kirigami  kitemmodels  kstatusnotifieritem  ksvg  libcanberra  libplasma  libpulse  plasma-workspace  pulse-native-provider  pulseaudio-qt  qt6-base  qt6-declarative
+Name            : plasma-sdk
+Depends On      : gcc-libs  glibc  karchive  kcmutils  kcolorscheme  kcompletion  kconfig  kconfigwidgets  kcoreaddons  kdbusaddons  kdeclarative  ki18n  kiconthemes  kio  kirigami  kitemmodels  knewstuff  kpackage  ksvg  ktexteditor  kwidgetsaddons  libplasma  plasma5support  qt6-5compat  qt6-base  qt6-declarative  sh
+Name            : plasma-systemmonitor
+Depends On      : gcc-libs  glibc  kconfig  kcoreaddons  kcrash  kdbusaddons  kdeclarative  kglobalaccel  ki18n  kiconthemes  kio  kirigami  kirigami-addons  kitemmodels  knewstuff  kquickcharts  kservice  ksystemstats  kwindowsystem  libksysguard  qt6-base  qt6-declarative
+Name            : plasma-thunderbolt
+Depends On      : bolt  gcc-libs  glibc  kcmutils  kcoreaddons  kdbusaddons  ki18n  kirigami  knotifications  qt6-base  qt6-declarative
+Name            : plasma-vault
+Depends On      : gcc-libs  glibc  plasma-activities  kconfig  kcoreaddons  kdbusaddons  ki18n  kio  kirigami  kitemmodels  kservice  kwidgetsaddons  libksysguard  networkmanager-qt  libplasma  plasma-workspace  qt6-base  qt6-declarative
+Name            : plasma-welcome
+Depends On      : gcc-libs  glibc  kcmutils  kconfig  kcoreaddons  kdbusaddons  ki18n  kio  kirigami  kirigami-addons  kjobwidgets  knewstuff  kservice  ksvg  kuserfeedback  kwindowsystem  libplasma  plasma-nm  plasma5support  qt6-5compat  qt6-base  qt6-declarative
+Name            : plasma-workspace
+Depends On      : accountsservice  appstream-qt  dbus  fontconfig  freetype2  gcc-libs  glibc  icu  kactivitymanagerd  karchive  kauth  kbookmarks  kcmutils  kcolorscheme  kcompletion  kconfig  kconfigwidgets  kcoreaddons  kcrash  kde-cli-tools  kdeclarative  kded  kdbusaddons  kglobalaccel  kguiaddons  kholidays  ki18n  kiconthemes  kidletime  kio  kio-extras  kio-fuse  kirigami  kirigami-addons  kitemmodels  kjobwidgets  knewstuff  knotifications  knotifyconfig  kpackage  kparts  kpipewire  krunner  kquickcharts  kscreenlocker  kservice  kstatusnotifieritem  ksvg  ksystemstats  ktexteditor  ktextwidgets  kunitconversion  kuserfeedback  kwallet  kwayland  kwidgetsaddons  kwin  kwindowsystem  kxmlgui  layer-shell-qt  libcanberra  libice  libkexiv2  libksysguard  libplasma  libqalculate  libsm  libx11  libxau  libxcb  libxcrypt  libxcursor  libxfixes  libxft  libxtst  milou  ocean-sound-theme  phonon-qt6  plasma-activities  plasma-activities-stats  plasma5support  prison  qt6-5compat  qt6-base  qt6-declarative  qt6-positioning  qt6-svg  qt6-tools  qt6-virtualkeyboard  qt6-wayland  sh  solid  systemd-libs  wayland  xcb-util  xcb-util-image  xorg-xmessage  xorg-xrdb  xorg-xsetroot  xorg-xwayland  zlib  plasma-integration
+Name            : plasma-workspace-wallpapers
+Depends On      : None
+Name            : plasma5support
+Depends On      : gcc-libs  glibc  kconfig  kcoreaddons  ki18n  kio  kjobwidgets  kservice  qt6-base  qt6-declarative  solid  kguiaddons  knotifications  libksysguard
+Name            : playerctl
+Depends On      : glib2  glibc
+Name            : plymouth
+Depends On      : bash  cairo  cantarell-fonts  filesystem  fontconfig  freetype2  glib2  glibc  libdrm  libevdev  libpng  libx11  libxkbcommon  pango  systemd-libs  xkeyboard-config
+Name            : plymouth-kcm
+Depends On      : gcc-libs  glibc  karchive  kauth  kcmutils  kconfig  kcoreaddons  ki18n  kio  kirigami  knewstuff  plymouth  qt6-base  qt6-declarative
+Name            : pokemon-colorscripts-git
+Depends On      : python
+Name            : polkit
+Depends On      : duktape  expat  glib2  glibc  pam  systemd-libs
+Name            : polkit-gnome
+Depends On      : gtk3  polkit
+Name            : polkit-kde-agent
+Depends On      : gcc-libs  glibc  kcoreaddons  kcrash  kdbusaddons  ki18n  kirigami  kwindowsystem  polkit-qt6  qt6-base  qt6-declarative
+Name            : polkit-qt6
+Depends On      : gcc-libs  glib2  glibc  polkit  qt6-base
+Name            : poppler
+Depends On      : libjpeg-turbo  gcc-libs  cairo  fontconfig  openjpeg2  lcms2  nss  curl  gpgme  nspr  libpng  freetype2  zlib  libtiff  glibc
+Name            : poppler-qt6
+Depends On      : poppler=24.11.0  qt6-base  lcms2  freetype2  gcc-libs  glibc
+Name            : popt
+Depends On      : glibc
+Name            : portaudio
+Depends On      : gcc-libs  glibc  alsa-lib  libasound.so=2-64  jack  libjack.so=0-64
+Name            : powerdevil
+Depends On      : ddcutil  gcc-libs  glibc  plasma-activities  kauth  kcmutils  kconfig  kcoreaddons  kcrash  kdbusaddons  kglobalaccel  ki18n  kidletime  kirigami  kitemmodels  knotifications  kservice  ksvg  kwindowsystem  kxmlgui  libkscreen  libplasma  libxcb  plasma-workspace  qcoro  qt6-base  qt6-declarative  qt6-wayland  solid  systemd-libs  wayland
+Name            : ppp
+Depends On      : glibc  libpcap  libxcrypt  openssl
+Name            : print-manager
+Depends On      : gcc-libs  glibc  kcmutils  kconfig  kcoreaddons  kdbusaddons  ki18n  kiconthemes  kio  kirigami  kitemmodels  knotifications  kwidgetsaddons  kwindowsystem  libcups  libplasma  qt6-base  qt6-declarative
+Name            : prison
+Depends On      : gcc-libs  glibc  libdmtx  qrencode  qt6-base  qt6-multimedia  zxing-cpp
+Name            : procps-ng
+Depends On      : glibc  ncurses  libncursesw.so=6-64  systemd-libs
+Name            : psmisc
+Depends On      : ncurses
+Name            : pugixml
+Depends On      : gcc-libs
+Name            : pulse-native-provider
+Depends On      : pipewire-pulse
+Name            : pulseaudio-qt
+Depends On      : gcc-libs  glibc  libpulse  qt6-base
+Name            : purpose
+Depends On      : accounts-qml-module  gcc-libs  glibc  kaccounts-integration  kcmutils  kconfig  kcoreaddons  ki18n  kio  kirigami  knotifications  kservice  libaccounts-qt  qt6-base  qt6-declarative
+Name            : python
+Depends On      : bzip2  expat  gdbm  libffi  libnsl  libxcrypt  openssl  zlib  tzdata  mpdecimal
+Name            : python-autocommand
+Depends On      : python
+Name            : python-build
+Depends On      : python  python-packaging  python-pyproject-hooks
+Name            : python-cairo
+Depends On      : cairo  python
+Name            : python-certifi
+Depends On      : ca-certificates  python
+Name            : python-colorama
+Depends On      : python
+Name            : python-dbus
+Depends On      : dbus  glib2  glibc  python
+Name            : python-docopt
+Depends On      : python
+Name            : python-docutils
+Depends On      : python
+Name            : python-gobject
+Depends On      : glib2  glibc  gobject-introspection-runtime  libffi  libgirepository  python
+Name            : python-installer
+Depends On      : python
+Name            : python-jaraco.collections
+Depends On      : python  python-jaraco.text
+Name            : python-jaraco.context
+Depends On      : python
+Name            : python-jaraco.functools
+Depends On      : python  python-more-itertools
+Name            : python-jaraco.text
+Depends On      : python  python-jaraco.functools  python-jaraco.context  python-autocommand  python-more-itertools
+Name            : python-keyutils
+Depends On      : python  keyutils
+Name            : python-mako
+Depends On      : python  python-markupsafe
+Name            : python-markdown
+Depends On      : python
+Name            : python-markupsafe
+Depends On      : glibc  python
+Name            : python-more-itertools
+Depends On      : python
+Name            : python-packaging
+Depends On      : python
+Name            : python-platformdirs
+Depends On      : python
+Name            : python-psutil
+Depends On      : glibc  python
+Name            : python-pyamdgpuinfo
+Depends On      : libdrm  python
+Name            : python-pyamdgpuinfo-debug
+Depends On      : None
+Name            : python-pygdbmi
+Depends On      : gdb  python
+Name            : python-pyproject-hooks
+Depends On      : python
+Name            : python-pyxdg
+Depends On      : python
+Name            : python-sentry_sdk
+Depends On      : python-urllib3  python-certifi
+Name            : python-setuptools
+Depends On      : python-jaraco.collections  python-jaraco.functools  python-jaraco.text  python-more-itertools  python-packaging  python-platformdirs  python-wheel
+Name            : python-shtab
+Depends On      : python
+Name            : python-termcolor
+Depends On      : python
+Name            : python-tqdm
+Depends On      : python
+Name            : python-urllib3
+Depends On      : python
+Name            : python-wheel
+Depends On      : python  python-packaging
+Name            : python-yaml
+Depends On      : glibc  libyaml  python
+Name            : qca-qt6
+Depends On      : ca-certificates  gcc-libs  glibc  nss  qt6-5compat  qt6-base
+Name            : qcoro
+Depends On      : gcc-libs  glibc  qt6-base  qt6-declarative  qt6-websockets
+Name            : qqc2-breeze-style
+Depends On      : gcc-libs  glibc  kcoreaddons  kcolorscheme  kconfig  kguiaddons  kiconthemes  kirigami  kquickcharts  qt6-base  qt6-declarative
+Name            : qqc2-desktop-style
+Depends On      : gcc-libs  glibc  kcolorscheme  kconfig  kiconthemes  kirigami  qt6-base  qt6-declarative  sonnet
+Name            : qrencode
+Depends On      : libpng
+Name            : qt5-base
+Depends On      : libjpeg-turbo  xcb-util-keysyms  xcb-util-renderutil  libgl  fontconfig  xdg-utils  shared-mime-info  xcb-util-wm  libxrender  libxi  sqlite  xcb-util-image  mesa  tslib  libinput  libxkbcommon-x11  libproxy  libcups  double-conversion  md4c  qt5-translations
+Name            : qt5-declarative
+Depends On      : qt5-base
+Name            : qt5-graphicaleffects
+Depends On      : qt5-declarative
+Name            : qt5-imageformats
+Depends On      : qt5-base  jasper  libmng  libwebp
+Name            : qt5-quickcontrols
+Depends On      : qt5-declarative
+Name            : qt5-quickcontrols2
+Depends On      : qt5-declarative
+Name            : qt5-svg
+Depends On      : qt5-base
+Name            : qt5-tools
+Depends On      : qt5-base  hicolor-icon-theme
+Name            : qt5-translations
+Depends On      : None
+Name            : qt5-wayland
+Depends On      : qt5-declarative  libxcomposite
+Name            : qt5-x11extras
+Depends On      : qt5-base
+Name            : qt5ct
+Depends On      : gcc-libs  glibc  qt5-base  qt5-svg
+Name            : qt6-5compat
+Depends On      : gcc-libs  glibc  icu  qt6-base  qt6-shadertools
+Name            : qt6-base
+Depends On      : brotli  dbus  double-conversion  fontconfig  freetype2  gcc-libs  glib2  glibc  harfbuzz  icu  krb5  libb2  libcups  libdrm  libgl  libice  libinput  libjpeg-turbo  libpng  libproxy  libsm  libx11  libxcb  libxkbcommon  libxkbcommon-x11  md4c  mesa  mtdev  openssl  pcre2  shared-mime-info  sqlite  systemd-libs  tslib  vulkan-headers  xcb-util-cursor  xcb-util-image  xcb-util-keysyms  xcb-util-renderutil  xcb-util-wm  xdg-utils  zlib  zstd  qt6-translations
+Name            : qt6-declarative
+Depends On      : gcc-libs  glibc  qt6-base
+Name            : qt6-multimedia
+Depends On      : gcc-libs  glibc  libpulse  qt6-base  qt6-multimedia-backend
+Name            : qt6-multimedia-ffmpeg
+Depends On      : ffmpeg  gcc-libs  glibc  libglvnd  libx11  libxext  libxrandr  qt6-base  qt6-multimedia
+Name            : qt6-positioning
+Depends On      : gcc-libs  glibc  qt6-base
+Name            : qt6-quick3d
+Depends On      : gcc-libs  glibc  openxr  qt6-base  qt6-declarative  qt6-quicktimeline  qt6-shadertools  zlib
+Name            : qt6-quicktimeline
+Depends On      : gcc-libs  glibc  qt6-base  qt6-declarative
+Name            : qt6-sensors
+Depends On      : gcc-libs  glibc  qt6-base
+Name            : qt6-shadertools
+Depends On      : gcc-libs  glibc  qt6-base
+Name            : qt6-speech
+Depends On      : gcc-libs  glibc  qt6-base  qt6-multimedia
+Name            : qt6-svg
+Depends On      : gcc-libs  glibc  qt6-base  zlib
+Name            : qt6-tools
+Depends On      : gcc-libs  glibc  qt6-base  zstd
+Name            : qt6-translations
+Depends On      : None
+Name            : qt6-virtualkeyboard
+Depends On      : gcc-libs  glibc  hunspell  qt6-base  qt6-declarative  qt6-multimedia  qt6-svg
+Name            : qt6-wayland
+Depends On      : gcc-libs  glibc  libglvnd  libxkbcommon  qt6-base  qt6-declarative  qt6-svg  wayland
+Name            : qt6-webchannel
+Depends On      : gcc-libs  glibc  qt6-base  qt6-declarative
+Name            : qt6-webengine
+Depends On      : alsa-lib  dbus  expat  ffmpeg  fontconfig  freetype2  gcc-libs  glib2  glibc  harfbuzz  icu  lcms2  libdrm  libevent  libjpeg-turbo  libpng  libtiff  libwebp  libx11  libxcb  libxcomposite  libxfixes  libxkbcommon  libxkbfile  libxdamage  libxext  libxml2  libxrandr  libxslt  libxtst  mesa  minizip  nspr  nss  openjpeg2  opus  qt6-base  qt6-declarative  qt6-positioning  qt6-webchannel  re2  snappy  ttf-font  zlib
+Name            : qt6-websockets
+Depends On      : gcc-libs  glibc  qt6-base
+Name            : qt6-webview
+Depends On      : gcc-libs  glibc  qt6-base  qt6-declarative  qt6-webengine
+Name            : qt6ct
+Depends On      : gcc-libs  glibc  qt6-base  qt6-svg
+Name            : qtkeychain-qt6
+Depends On      : gcc-libs  glib2  glibc  org.freedesktop.secrets  qt6-base
+Name            : rav1e
+Depends On      : gcc-libs  glibc
+Name            : re2
+Depends On      : gcc-libs  abseil-cpp
+Name            : readline
+Depends On      : glibc  ncurses  libncursesw.so=6-64
+Name            : rhash
+Depends On      : glibc
+Name            : ripgrep
+Depends On      : gcc-libs  pcre2
+Name            : rofi-wayland
+Depends On      : cairo  gdk-pixbuf2  glib2  glibc  hicolor-icon-theme  libxcb  libxkbcommon  libxkbcommon-x11  pango  startup-notification  wayland  xcb-util  xcb-util-cursor  xcb-util-wm
+Name            : rtkit
+Depends On      : dbus  polkit  systemd
+Name            : rubberband
+Depends On      : fftw  libfftw3.so=3-64  gcc-libs  glibc  libsamplerate  libsamplerate.so=0-64  libsndfile  libsndfile.so=1-64
+Name            : sbc
+Depends On      : glibc
+Name            : scdoc
+Depends On      : None
+Name            : sdbus-cpp
+Depends On      : expat  systemd-libs
+Name            : sddm-git
+Depends On      : bash  gcc-libs  glibc  libxau  libxcb  pam  qt6-base  qt6-declarative  systemd-libs  ttf-font  xorg-server  xorg-xauth
+Name            : sddm-git-debug
+Depends On      : None
+Name            : sddm-kcm
+Depends On      : gcc-libs  glibc  karchive  kauth  kcmutils  kconfig  kcoreaddons  ki18n  kio  kirigami  knewstuff  kservice  kwidgetsaddons  qt6-base  qt6-declarative  sddm
+Name            : sdl2
+Depends On      : glibc  libxext  libxrender  libx11  libgl  libxcursor  hidapi  libusb
+Name            : seatd
+Depends On      : systemd-libs
+Name            : sed
+Depends On      : glibc  acl
+Name            : serd
+Depends On      : glibc
+Name            : shaderc
+Depends On      : glibc  gcc-libs  glslang  spirv-tools
+Name            : shadow
+Depends On      : glibc  acl  libacl.so=1-64  attr  libattr.so=1-64  audit  libaudit.so=1-64  libxcrypt  libcrypt.so=2-64  pam  libpam.so=0-64  libpam_misc.so=0-64
+Name            : shared-mime-info
+Depends On      : libxml2  glib2  glibc  gcc-libs
+Name            : signon-kwallet-extension
+Depends On      : gcc-libs  glibc  kwallet  qt6-base  signond
+Name            : signon-plugin-oauth2
+Depends On      : gcc-libs  glibc  qt6-base  signond
+Name            : signon-ui
+Depends On      : gcc-libs  glib2  glibc  libaccounts-qt  libnotify  libproxy  qt6-base  qt6-declarative  qt6-webengine  signond
+Name            : signond
+Depends On      : gcc-libs  glibc  qt6-base
+Name            : slang
+Depends On      : pcre
+Name            : slurp
+Depends On      : cairo  wayland  libxkbcommon
+Name            : smartmontools
+Depends On      : gcc-libs  libcap-ng  bash  systemd-libs
+Name            : smbclient
+Depends On      : cifs-utils  gnutls  icu  jansson  ldb  libarchive  libbsd  libcups  libldap  libldb.so=2-64  libnsl  libreadline.so=8-64  libtdb.so=1-64  libtevent.so=0-64  libwbclient  popt  python  readline  talloc  tdb  tevent
+Name            : snappy
+Depends On      : gcc-libs  glibc
+Name            : sndio
+Depends On      : alsa-lib  libbsd
+Name            : socat
+Depends On      : glibc  openssl  libssl.so=3-64  readline  libreadline.so=8-64
+Name            : solid
+Depends On      : gcc-libs  glibc  libimobiledevice  libplist  media-player-info  qt6-base  systemd-libs  udisks2  upower  util-linux-libs
+Name            : sonnet
+Depends On      : gcc-libs  glibc  qt6-base
+Name            : sord
+Depends On      : glibc  pcre2  serd  libserd-0.so=0-64  zix  libzix-0.so=0-64
+Name            : sound-theme-freedesktop
+Depends On      : None
+Name            : source-highlight
+Depends On      : bash  boost-libs
+Name            : spdlog
+Depends On      : gcc-libs  glibc  libfmt.so=11-64
+Name            : speex
+Depends On      : gcc-libs  libogg  speexdsp  libogg.so=0-64  libspeexdsp.so=1-64
+Name            : speexdsp
+Depends On      : gcc-libs
+Name            : spirv-tools
+Depends On      : gcc-libs  sh
+Name            : sqlite
+Depends On      : readline  zlib  glibc
+Name            : sratom
+Depends On      : glibc  serd  libserd-0.so=0-64  sord  libsord-0.so=0-64  lv2
+Name            : srt
+Depends On      : bash  gcc-libs  glibc  openssl
+Name            : startup-notification
+Depends On      : glibc  libx11  libxcb  xcb-util
+Name            : sudo
+Depends On      : glibc  openssl  pam  libldap  zlib  libcrypto.so=3-64  libssl.so=3-64
+Name            : svt-av1
+Depends On      : glibc
+Name            : swaylock-effects-git
+Depends On      : libxkbcommon  cairo  gdk-pixbuf2  pam  wayland
+Name            : swaylock-effects-git-debug
+Depends On      : None
+Name            : swww
+Depends On      : gcc-libs  glibc  lz4
+Name            : syndication
+Depends On      : gcc-libs  glibc  kcodecs  qt6-base
+Name            : syntax-highlighting
+Depends On      : gcc-libs  glibc  qt6-base
+Name            : systemd
+Depends On      : systemd-libs=256.9  acl  libacl.so=1-64  bash  cryptsetup  libcryptsetup.so=12-64  dbus  dbus-units  kbd  kmod  hwdata  libcap  libcap.so=2-64  libgcrypt  libxcrypt  libcrypt.so=2-64  libidn2  lz4  pam  libelf  libseccomp  libseccomp.so=2-64  util-linux  libblkid.so=1-64  libmount.so=1-64  xz  pcre2  audit  libaudit.so=1-64  openssl  libcrypto.so=3-64  libssl.so=3-64
+Name            : systemd-libs
+Depends On      : glibc  gcc-libs  libcap  libgcrypt  lz4  xz  zstd
+Name            : systemd-sysvcompat
+Depends On      : systemd=256.9
+Name            : systemsettings
+Depends On      : gcc-libs  glibc  plasma-activities  kauth  kcmutils  kcolorscheme  kconfig  kconfigwidgets  kcoreaddons  kcrash  kdbusaddons  ki18n  kio  kirigami  kitemmodels  kitemviews  kjobwidgets  krunner  kservice  kwidgetsaddons  kwindowsystem  kxmlgui  qt6-base  qt6-declarative
+Name            : taglib
+Depends On      : gcc-libs  glibc  sh  zlib
+Name            : talloc
+Depends On      : glibc  libbsd  libxcrypt
+Name            : tar
+Depends On      : glibc  acl
+Name            : tdb
+Depends On      : glibc
+Name            : tevent
+Depends On      : talloc
+Name            : texinfo
+Depends On      : ncurses  gzip  perl  sh
+Name            : tinysparql
+Depends On      : avahi  gcc-libs  glib2  glibc  icu  json-glib  libsoup3  libstemmer  libxml2  sqlite
+Name            : tldr
+Depends On      : python-shtab  python-colorama  python-termcolor
+Name            : tomlplusplus
+Depends On      : gcc-libs  glibc
+Name            : tpm2-tss
+Depends On      : curl  json-c  openssl  libjson-c.so=5-64
+Name            : tree-sitter
+Depends On      : None
+Name            : tree-sitter-c
+Depends On      : None
+Name            : tree-sitter-lua
+Depends On      : None
+Name            : tree-sitter-markdown
+Depends On      : None
+Name            : tree-sitter-query
+Depends On      : None
+Name            : tree-sitter-vim
+Depends On      : None
+Name            : tree-sitter-vimdoc
+Depends On      : None
+Name            : tslib
+Depends On      : glibc
+Name            : ttf-hack
+Depends On      : None
+Name            : ttf-jetbrains-mono-nerd
+Depends On      : None
+Name            : tzdata
+Depends On      : None
+Name            : udiskie
+Depends On      : udisks2  python  python-gobject  python-yaml  python-docopt  gtk3  libnotify  python-keyutils
+Name            : udisks2
+Depends On      : acl  libacl.so=1-64  dbus  gcc-libs  glib2  libgio-2.0.so=0-64  libglib-2.0.so=0-64  libgmodule-2.0.so=0-64  libgobject-2.0.so=0-64  glibc  libatasmart  libblockdev  libbd_utils.so=3-64  libblockdev.so=3-64  libblockdev-crypto  libblockdev-fs  libblockdev-mdraid  libblockdev-loop  libblockdev-nvme  libblockdev-part  libblockdev-swap  libgudev  libgudev-1.0.so=0-64  polkit  libpolkit-agent-1.so=0-64  libpolkit-gobject-1.so=0-64  systemd-libs  libsystemd.so=0-64  util-linux-libs  libblkid.so=1-64  libmount.so=1-64  libuuid.so=1-64
+Name            : unibilium
+Depends On      : glibc
+Name            : upower
+Depends On      : gcc-libs  glib2  glibc  libgudev  libimobiledevice  libplist  polkit  libglib-2.0.so=0-64  libgobject-2.0.so=0-64  libgio-2.0.so=0-64
+Name            : util-linux
+Depends On      : util-linux-libs=2.40.2  coreutils  file  libmagic.so=1-64  glibc  libcap-ng  libxcrypt  libcrypt.so=2-64  ncurses  libncursesw.so=6-64  pam  readline  shadow  systemd-libs  libsystemd.so=0-64  libudev.so=1-64  zlib
+Name            : util-linux-libs
+Depends On      : glibc  sqlite
+Name            : uwsm
+Depends On      : python  python-pyxdg  python-dbus
+Name            : v4l-utils
+Depends On      : hicolor-icon-theme  gcc-libs  libjpeg-turbo  systemd-libs  json-c
+Name            : vapoursynth
+Depends On      : libzimg.so=2-64  python
+Name            : vi
+Depends On      : ncurses
+Name            : vid.stab
+Depends On      : gcc-libs  glibc
+Name            : vim
+Depends On      : vim-runtime=9.1.0866-1  gpm  acl  glibc  libgcrypt  zlib
+Name            : vim-runtime
+Depends On      : None
+Name            : vlc
+Depends On      : a52dec  abseil-cpp  aribb24  bash  cairo  dbus  faad2  ffmpeg4.4  fontconfig  freetype2  fribidi  gcc-libs  gdk-pixbuf2  glib2  glibc  gnutls  harfbuzz  hicolor-icon-theme  libarchive  libdca  libdvbpsi  libglvnd  libidn  libmad  libmatroska  libmpcdec  libmpeg2  libproxy  libsecret  libtar  libupnp  libva  libvlc  libx11  libxcb  libxinerama  libxml2  libxpm  lua  qt5-base  qt5-svg  qt5-x11extras  taglib  wayland  xcb-util-keysyms  zlib
+Name            : vmaf
+Depends On      : gcc-libs
+Name            : volume_key
+Depends On      : cryptsetup  glib2  glibc  gpgme  nspr  nss  util-linux-libs
+Name            : vulkan-headers
+Depends On      : None
+Name            : vulkan-icd-loader
+Depends On      : glibc
+Name            : vulkan-tools
+Depends On      : libx11  wayland  libvulkan.so=1-64
+Name            : wacomtablet
+Depends On      : gcc-libs  glibc  kcmutils  kconfig  kcoreaddons  kdbusaddons  kglobalaccel  ki18n  kio  kirigami  knotifications  kservice  ksvg  kwidgetsaddons  kwindowsystem  kxmlgui  libwacom  libxcb  libxi  libplasma  plasma5support  qt6-base  qt6-declarative  xf86-input-wacom
+Name            : waybar
+Depends On      : atkmm  cairomm  fmt  gcc-libs  glib2  glibc  glibmm  gtk-layer-shell  gtk3  gtkmm3  jack  jsoncpp  libdbusmenu-gtk3  libevdev  libinput  libmpdclient  libnl  libpipewire  libpulse  libsigc++  libwireplumber  libxkbcommon  playerctl  sndio  spdlog  systemd-libs  upower  wayland  libatkmm-1.6.so=1-64  libcairomm-1.0.so=1-64  libgtk-3.so=0-64  libjack.so=0-64  libjsoncpp.so=26-64  libpipewire-0.3.so=0-64  libsndio.so=7-64  libspdlog.so=1.15-64  libudev.so=1-64  libupower-glib.so=3-64
+Name            : wayland
+Depends On      : glibc  libffi  expat  libxml2  default-cursors
+Name            : wayland-protocols
+Depends On      : None
+Name            : wayland-utils
+Depends On      : glibc  libdrm  wayland
+Name            : webrtc-audio-processing-1
+Depends On      : abseil-cpp  gcc-libs
+Name            : wget
+Depends On      : glibc  zlib  gnutls  libidn2  libidn2.so=0-64  util-linux-libs  libuuid.so=1-64  libpsl  libpsl.so=5-64  pcre2  nettle  libnettle.so=8-64
+Name            : which
+Depends On      : glibc  bash
+Name            : wireplumber
+Depends On      : libwireplumber=0.5.7-1  gcc-libs  glibc  libglib-2.0.so=0-64  libgobject-2.0.so=0-64  libgio-2.0.so=0-64  libpipewire  libpipewire-0.3.so=0-64  libsystemd.so=0-64  lua  pipewire  systemd-libs
+Name            : wl-clipboard
+Depends On      : wayland
+Name            : wlogout
+Depends On      : gtk3  gobject-introspection  gtk-layer-shell
+Name            : wlogout-debug
+Depends On      : None
+Name            : wofi
+Depends On      : glibc  cairo  libcairo.so=2-64  gdk-pixbuf2  libgdk_pixbuf-2.0.so=0-64  glib2  libgio-2.0.so=0-64  libglib-2.0.so=0-64  libgobject-2.0.so=0-64  gtk3  libgdk-3.so=0-64  libgtk-3.so=0-64  pango  libpango-1.0.so=0-64  wayland  libwayland-client.so=0-64
+Name            : wpa_supplicant
+Depends On      : glibc  libdbus  libnl  openssl  pcsclite  readline
+Name            : x264
+Depends On      : glibc  liblsmash.so=2-64
+Name            : x265
+Depends On      : gcc-libs
+Name            : xbitmaps
+Depends On      : None
+Name            : xcb-proto
+Depends On      : None
+Name            : xcb-util
+Depends On      : libxcb  glibc
+Name            : xcb-util-cursor
+Depends On      : libxcb  xcb-util-renderutil  xcb-util-image  glibc
+Name            : xcb-util-errors
+Depends On      : libxcb
+Name            : xcb-util-image
+Depends On      : libxcb  xcb-util  glibc
+Name            : xcb-util-keysyms
+Depends On      : libxcb  glibc
+Name            : xcb-util-renderutil
+Depends On      : libxcb  glibc
+Name            : xcb-util-wm
+Depends On      : libxcb  glibc
+Name            : xcur2png
+Depends On      : libpng  libxcursor
+Name            : xdg-dbus-proxy
+Depends On      : dbus  gcc-libs  glib2  glibc
+Name            : xdg-desktop-portal
+Depends On      : fuse3  gcc-libs  gdk-pixbuf2  glib2  glibc  json-glib  libpipewire  pipewire  rtkit  systemd  systemd-libs
+Name            : xdg-desktop-portal-hyprland
+Depends On      : gcc-libs  glibc  hyprlang  libhyprlang.so=2-64  hyprutils  libhyprutils.so  hyprwayland-scanner  libinih  pipewire  qt6-base  qt6-wayland  sdbus-cpp  libsdbus-c++.so=2-64  util-linux-libs  libuuid.so  xdg-desktop-portal
+Name            : xdg-desktop-portal-kde
+Depends On      : gcc-libs  glibc  kconfig  kcoreaddons  kcrash  kglobalaccel  kiconthemes  ki18n  kio  kio-fuse  kirigami  kitemviews  knotifications  kpipewire  kservice  kstatusnotifieritem  kwayland  kwindowsystem  libxkbcommon  plasma-workspace  qt6-base  qt6-declarative  qt6-wayland  wayland  xdg-desktop-portal
+Name            : xdg-user-dirs
+Depends On      : sh  systemd
+Name            : xdg-utils
+Depends On      : sh  file  xorg-xset  xorg-xprop
+Name            : xf86-input-libinput
+Depends On      : libinput  glibc
+Name            : xf86-input-wacom
+Depends On      : libxi  libxinerama  libxrandr  systemd-libs  libx11  glibc
+Name            : xkeyboard-config
+Depends On      : None
+Name            : xorg-bdftopcf
+Depends On      : glibc
+Name            : xorg-fonts-encodings
+Depends On      : None
+Name            : xorg-iceauth
+Depends On      : libice  glibc
+Name            : xorg-mkfontscale
+Depends On      : freetype2  libfontenc  zlib  glibc
+Name            : xorg-server
+Depends On      : libepoxy  libxfont2  pixman  xorg-server-common  libunwind  dbus  libgl  xf86-input-libinput  nettle  libxdmcp  sh  glibc  libxau  systemd-libs  libtirpc  libpciaccess  libdrm  libxshmfence  libxcvt
+Name            : xorg-server-common
+Depends On      : xkeyboard-config  xorg-xkbcomp  xorg-setxkbmap
+Name            : xorg-sessreg
+Depends On      : glibc
+Name            : xorg-setxkbmap
+Depends On      : libxkbfile  libxrandr
+Name            : xorg-smproxy
+Depends On      : libsm  libxt  libxmu
+Name            : xorg-twm
+Depends On      : libxmu
+Name            : xorg-x11perf
+Depends On      : libx11  libxmu  libxrender  libxft  libxext  fontconfig  sh  glibc
+Name            : xorg-xauth
+Depends On      : libxmu  libxau  libxext  libx11  glibc
+Name            : xorg-xbacklight
+Depends On      : xcb-util  libxcb  glibc
+Name            : xorg-xclock
+Depends On      : libx11  libxmu  libxaw  libxrender  libxft  libxkbfile
+Name            : xorg-xcmsdb
+Depends On      : libx11  glibc
+Name            : xorg-xcursorgen
+Depends On      : libx11  libxcursor  libpng
+Name            : xorg-xdpyinfo
+Depends On      : libx11  libxext  libxtst  libxxf86vm  libxrender  libxcomposite  libxinerama
+Name            : xorg-xdriinfo
+Depends On      : libx11  libgl
+Name            : xorg-xev
+Depends On      : libx11  libxrandr  glibc
+Name            : xorg-xgamma
+Depends On      : libx11  libxxf86vm
+Name            : xorg-xhost
+Depends On      : libx11  libxmu
+Name            : xorg-xinit
+Depends On      : libx11  xorg-xauth  xorg-xrdb  xorg-xmodmap
+Name            : xorg-xinput
+Depends On      : libx11  libxi>=1.5.99.2  xorg-xrandr  libxinerama
+Name            : xorg-xkbcomp
+Depends On      : libxkbfile  libx11  glibc
+Name            : xorg-xkbevd
+Depends On      : libxkbfile  libx11  glibc
+Name            : xorg-xkbprint
+Depends On      : libxkbfile  libx11  glibc
+Name            : xorg-xkbutils
+Depends On      : libxaw  libxt  libx11  glibc
+Name            : xorg-xkill
+Depends On      : libx11  libxmu
+Name            : xorg-xlsatoms
+Depends On      : libxcb
+Name            : xorg-xlsclients
+Depends On      : libxcb
+Name            : xorg-xmessage
+Depends On      : libxaw  libx11  libxt  glibc
+Name            : xorg-xmodmap
+Depends On      : libx11
+Name            : xorg-xpr
+Depends On      : libx11  libxmu  glibc  sh
+Name            : xorg-xprop
+Depends On      : libx11  glibc
+Name            : xorg-xrandr
+Depends On      : libxrandr  libx11  glibc
+Name            : xorg-xrdb
+Depends On      : libx11  libxmu  glibc
+Name            : xorg-xrefresh
+Depends On      : libx11  glibc
+Name            : xorg-xset
+Depends On      : libxmu
+Name            : xorg-xsetroot
+Depends On      : libxmu  libx11  libxcursor
+Name            : xorg-xvinfo
+Depends On      : libx11  libxv
+Name            : xorg-xwayland
+Depends On      : nettle  libepoxy  libxfont2  pixman  xorg-server-common  libxcvt  mesa  libglvnd  libxau  wayland  libdrm  libtirpc  libei  libxshmfence  libdecor  glibc
+Name            : xorg-xwd
+Depends On      : libxkbfile  libx11  glibc
+Name            : xorg-xwininfo
+Depends On      : libxcb
+Name            : xorg-xwud
+Depends On      : libx11  glibc
+Name            : xorgproto
+Depends On      : None
+Name            : xsettingsd
+Depends On      : libx11  gcc-libs
+Name            : xterm
+Depends On      : libxft  libxaw  ncurses  luit  xbitmaps  libutempter  libxkbfile
+Name            : xvidcore
+Depends On      : glibc
+Name            : xxhash
+Depends On      : glibc
+Name            : xz
+Depends On      : sh
+Name            : yay
+Depends On      : pacman>6.1  git
+Name            : yay-debug
+Depends On      : None
+Name            : yyjson
+Depends On      : glibc
+Name            : zeromq
+Depends On      : glibc  gnutls  gcc-libs  util-linux  libsodium  libpgm
+Name            : zimg
+Depends On      : gcc-libs  glibc
+Name            : zix
+Depends On      : glibc
+Name            : zlib
+Depends On      : glibc
+Name            : zsh
+Depends On      : pcre2  libcap  gdbm
+Name            : zsh-theme-powerlevel10k-git
+Depends On      : glibc  zsh
+Name            : zsh-theme-powerlevel10k-git-debug
+Depends On      : None
+Name            : zstd
+Depends On      : glibc  gcc-libs  zlib  xz  lz4
+Name            : zxing-cpp
+Depends On      : gcc-libs  glibc
